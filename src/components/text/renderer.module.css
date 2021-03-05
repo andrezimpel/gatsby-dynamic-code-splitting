@@ -1,0 +1,165 @@
+.text {
+  color: blue;
+  line-height: 1.65;
+
+  > p,
+  > div > p {
+    margin-bottom: 1.5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    + ul {
+      margin-top: -.75em;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+
+  h2 {
+    margin-bottom: .25em;
+    margin-top: .75em;
+  }
+
+  h3 {
+    font-size: 1.55em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  h5 {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    text-transform: uppercase;
+
+    &:before,
+    &:after {
+      background-color: red;
+      clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      content: '';
+      display: block;
+      padding: 27px 0;
+      width: 11px;
+    }
+
+    &:before {
+      float: left;
+      margin: -10px -20px -10px -20.5px;
+      clip-path: polygon(100% 0, 0 100%, 100% 100%);
+      -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+
+    &:after {
+      float: right;
+      margin: -10px -20.5px -10px -20px;
+      clip-path: polygon(0 0, 0 100%, 100% 0);
+      -webkit-clip-path: polygon(0 0, 0 100%, 100% 0)
+    }
+  }
+
+  h6 {
+    color: gray;
+    font-size: .75em;
+    margin-top: 10px;
+  }
+
+  p + h6 {
+    margin-top: -20px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  &[data-alignment="columns"] {
+    columns: 2;
+    column-gap: 60px;
+  }
+
+  &[data-alignment="center"] {
+    text-align: center;
+  }
+
+  em {
+    color: red;
+    font-style: normal;
+  }
+
+  table {
+    width: 100%;
+
+    thead {
+      background-color: blue;
+      color: white;
+
+      th {
+        padding: 5px 10px;
+        text-align: center;
+
+        &:nth-child(2) {
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+        }
+      }
+    }
+
+    tbody {
+      border-bottom: 2px solid blue;
+      border-left: 4px solid blue;
+      border-right: 4px solid blue;
+
+      tr {
+        &:nth-child(even) {
+          background-color: #e3c6c9;
+        }
+
+        &:hover {
+          background-color: blue;
+          color: white;
+          font-weight: 500;
+
+          td:nth-child(2) {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+          }
+        }
+      }
+
+      td {
+        padding: 5px 10px 3px 10px;
+        text-align: center;
+
+        &:nth-child(2) {
+          border-left: 1px solid blue;
+          border-right: 1px solid blue;
+        }
+      }
+    }
+  }
+
+  ol {
+    margin-left: -18px;
+  }
+
+  p + ol {
+    margin-top: -15px;
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}

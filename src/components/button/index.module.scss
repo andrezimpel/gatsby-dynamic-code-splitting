@@ -1,0 +1,52 @@
+@import "../../assets/theme.scss";
+
+.buttonClass {
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  outline: inherit;
+  padding: 10px;
+  position: relative;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: white;
+    color: red;
+    text-decoration: none;
+
+    &:before,
+    &:after {
+      background-color: white;
+    }
+  }
+
+  &:before,
+  &:after {
+    background-color: red;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    content: '';
+    display: block;
+    height: 1.1em;
+    padding: 22px 0;
+    width: 11px;
+  }
+
+  &:before {
+    float: left;
+    margin: -10px -20px -10px -20.5px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  }
+
+  &:after {
+    float: right;
+    margin: -10px -20.5px -10px -20px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 0)
+  }
+}
