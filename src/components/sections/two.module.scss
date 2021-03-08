@@ -1,0 +1,79 @@
+@import '../../assets/theme.scss';
+
+.card {
+  position: relative;
+}
+
+.title {
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.infos {
+  color: gray;
+  line-height: 1.25;
+
+  > div {
+    display: inline;
+  }
+
+  div + div {
+    &:before {
+      content: "|";
+      padding: 0 5px;
+    }
+  }
+}
+
+.sections {
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
+}
+
+.section {
+  @include media-breakpoint-up(md) {
+    &:nth-child(1) {
+      flex: 0 0 260px;
+      max-width: 260px;
+      padding-right: 40px;
+    }
+
+    &:nth-child(2) {
+      flex: 1
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &:nth-child(1) {
+      flex: 0 0 340px;
+      max-width: 340px;
+    }
+  }
+}
+
+.headline {
+  font-size: 1.6em;
+  margin: 40px 0 15px 0;
+}
+
+.ingredients {
+  line-height: 2em;
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.ingredients,
+.instructions {
+  font-size: 1.1em;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.2em;
+  }
+}
