@@ -4,13 +4,13 @@ import Container from '../container';
 import TextRenderer from '../text/renderer';
 
 import * as styles from './two.module.scss';
+import image from '../../images/cristina-gottardi-qQJveB1VtmM-unsplash.jpg'
 
 const SectionTwo = ({
   title=`Please add the title`,
   ingredients=`Please add an ingredients list`,
   instructions=`Please add instructions`,
   preparationTime,
-  servesFor,
   currentLocale
 }) => {
 
@@ -24,14 +24,6 @@ const SectionTwo = ({
         <h2 className={styles.title}>
           {title}
         </h2>
-        <div className={styles.infos}>
-          {( servesFor &&
-            <div className={styles.servesFor} itemProp="recipeYield">{servesFor}</div>
-          )}
-          {( preparationTime &&
-            <div className={styles.preparationTime}>{preparationTime}</div>
-          )}
-        </div>
         <div className={styles.sections}>
           <div className={styles.section}>
             <h3 className={styles.headline}>'recipe.ingredients'</h3>
@@ -41,6 +33,7 @@ const SectionTwo = ({
           </div>
           <div className={styles.section}>
             <h3 className={styles.headline}>'recipe.instructions'</h3>
+            <img className={styles.image} src={image} alt="hi"/>
             <div className={styles.instructions} itemProp="recipeInstructions">
               <TextRenderer text={instructions}/>
             </div>

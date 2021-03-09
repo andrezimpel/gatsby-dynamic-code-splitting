@@ -3,7 +3,7 @@ import React from 'react'
 import Button from '../button'
 import TextRenderer from '../text/renderer'
 
-import { containerClass, wrapperClass, headlineClass, sublineClass, teaserClass, buttonWrapperClass } from './one.module.scss'
+import * as styles from './one.module.scss'
 
 const SectionOne = ({
   headline='Please add a headline',
@@ -19,21 +19,21 @@ const SectionOne = ({
 
   const url = 'dopeurl';
   return (
-    <section className={containerClass}>
-      <div className={wrapperClass} data-has-background={backgroundImage !== null}>
-        <h2 className={headlineClass} style={{ color: textColor }}>{headline}</h2>
+    <section className={styles.containerClass}>
+      <div className={styles.wrapperClass} data-has-background={backgroundImage !== null}>
+        <h2 className={styles.headlineClass} style={{ color: textColor }}>{headline}</h2>
         {( subline &&
-          <div className={sublineClass} style={{ color: textColor }}>
+          <div className={styles.sublineClass} style={{ color: textColor }}>
             <TextRenderer text={subline}/>
           </div>
         )}
         {( teaser &&
-          <div className={teaserClass} style={{ color: textColor }}>
+          <div className={styles.teaserClass} style={{ color: textColor }}>
             {teaser}
           </div>
         )}
         {( ((buttonLabel && buttonLink) || (buttonLabel && buttonUrl)) &&
-          <div className={buttonWrapperClass}>
+          <div className={styles.buttonWrapperClass}>
             <Button to={url}>{buttonLabel}</Button>
           </div>
         )}
