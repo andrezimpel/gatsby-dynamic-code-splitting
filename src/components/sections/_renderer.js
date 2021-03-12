@@ -23,7 +23,7 @@ const SectionRenderer = ({ sections=[] }) => {
 const getFallback = (id) => {
   if (typeof window === 'undefined') return ''
   const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
-  return element ? element : ''
+  return element ? element : <span></span>
 }
 
 export default SectionRenderer
