@@ -45,7 +45,7 @@ exports.createPages = async ({ graphql, actions }) => {
 }
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
-  if (stage === "build-javascript" || stage === "develop") {
+  if (stage === "build-javascript") {
      actions.setWebpackConfig({
        plugins: [new LoadablePlugin({ filename: statsFilename, writeToDisk: true })]
      });

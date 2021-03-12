@@ -15,15 +15,15 @@ const SectionRenderer = ({ sections=[] }) => {
     return <ModuleComponent
       key={index}
       id={section.__typename}
-      fallback={<div>loading....</div>}
+      fallback={getFallback(section.__typename)}
     />
   })
 }
 
-// const getFallback = (id) => {
-//   if (typeof window === 'undefined') return ''
-//   const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
-//   return element ? element.innerHTML : ''
-// }
+const getFallback = (id) => {
+  if (typeof window === 'undefined') return ''
+  const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
+  return element ? element.innerHTML : ''
+}
 
 export default SectionRenderer
