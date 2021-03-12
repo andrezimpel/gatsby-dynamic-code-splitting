@@ -5,7 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@loadable/babel-plugin": "^5.13.2",
     "@loadable/component": "^5.14.1",
+    "@loadable/webpack-plugin": "^5.14.2",
+    "babel-preset-gatsby": "^1.0.0",
     "bootstrap": "4.6.0",
     "gatsby": "^3.0.4",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",

@@ -1,7 +1,7 @@
 import React from 'react'
 
-const SectionOne = () => {
-  return <div>section one</div>
+const SectionOne = ({ id }) => {
+  return <div data-fallback-id={id}>section one</div>
 }
 
 export default SectionOne

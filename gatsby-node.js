@@ -1,4 +1,5 @@
 const path = require('path')
+const LoadablePlugin = require('@loadable/webpack-plugin')
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -38,5 +39,16 @@ exports.createPages = async ({ graphql, actions }) => {
         ...node
       },
     })
+  })
+}
+
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
+    plugins: [new LoadablePlugin()],
+  })
+}
+exports.onCreateBabelConfig = ({ actions }) => {
+  actions.setBabelPlugin({
+    name: `@loadable/babel-plugin`,
   })
 }

@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://gatsby-starter-default/./src/components/sections/three.js"],"names":[],"mappings":"0JAMA,UAJqB,WACnB,OAAO","file":"926-4c884c814ab1857596f2.js","sourcesContent":["import React from 'react'\n\nconst SectionThree = () => {\n  return <div>section three</div>\n}\n\nexport default SectionThree\n"],"sourceRoot":""}
