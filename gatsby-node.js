@@ -1,5 +1,7 @@
 const path = require('path')
 const LoadablePlugin = require('@loadable/webpack-plugin')
+const { unlinkSync } = require('fs')
+const { statsFilename, statsPath } = require('./constants')
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -42,13 +44,19 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 }
 
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  actions.setWebpackConfig({
-    plugins: [new LoadablePlugin()],
-  })
-}
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  if (stage === "build-javascript" || stage === "develop") {
+     actions.setWebpackConfig({
+       plugins: [new LoadablePlugin({ filename: statsFilename, writeToDisk: true })]
+     });
+   }
+};
+
 exports.onCreateBabelConfig = ({ actions }) => {
-  actions.setBabelPlugin({
-    name: `@loadable/babel-plugin`,
-  })
-}
+  actions.setBabelPlugin({ name: '@loadable/babel-plugin' });
+};
+
+exports.onPostBuild = () => {
+  // Clean after ourselves
+  unlinkSync(statsPath);
+};

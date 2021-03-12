@@ -1,7 +1,18 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+import { hydrate, render } from 'react-dom';
 
-// You can delete this file if you're not using it
+import { loadableReady } from '@loadable/component';
+
+export const replaceHydrateFunction = (_, options) => (element, container, callback) => {
+  loadableReady(() => {
+    const renderFn = typeof options.useHydrate === 'undefined'
+        // Using ReactDOM.hydrate on develop will throw an error in console
+        ? process.env.GATSBY_BUILD_STAGE.includes('develop')
+            ? render
+            : hydrate
+        : !!options.useHydrate
+            ? hydrate
+            : render;
+
+    renderFn(element, container, callback);
+  });
+};

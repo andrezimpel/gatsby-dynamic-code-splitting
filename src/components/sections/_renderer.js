@@ -1,3 +1,5 @@
+/* webpackChunkName: "renderer" */
+
 import React from 'react'
 import loadable from '@loadable/component'
 
@@ -13,19 +15,15 @@ const SectionRenderer = ({ sections=[] }) => {
     return <ModuleComponent
       key={index}
       id={section.__typename}
-      fallback={<div
-        dangerouslySetInnerHTML={{
-          __html: getFallback(section.__typename),
-        }}
-      />}
+      fallback={<div>loading....</div>}
     />
   })
 }
 
-const getFallback = (id) => {
-  if (typeof window === 'undefined') return ''
-  const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
-  return element ? element.innerHTML : ''
-}
+// const getFallback = (id) => {
+//   if (typeof window === 'undefined') return ''
+//   const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
+//   return element ? element.innerHTML : ''
+// }
 
 export default SectionRenderer

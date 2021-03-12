@@ -1,3 +1,5 @@
+/* webpackChunkName: "Three" */
+
 import React from 'react'
 
 const SectionTwo = ({ id }) => {

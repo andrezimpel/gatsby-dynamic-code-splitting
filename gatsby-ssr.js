@@ -1,7 +1,25 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import { existsSync, readFileSync } from 'fs'
 
-// You can delete this file if you're not using it
+import { ChunkExtractor } from '@loadable/server'
+import { statsPath } from './constants'
+
+const path = require('path')
+
+
+const statsFile = path.resolve(statsPath)
+const extractor = new ChunkExtractor({ statsFile })
+
+// extractor.collectChunks() will wrap the application in a ChunkExtractorManager
+export const wrapRootElement = ({ element }) => extractor.collectChunks(element);
+
+export const onRenderBody = ({ setPostBodyComponents, setHeadComponents }) => {
+  // Set link rel="preload" tags in the head to start the request asap. This will NOT parse the assets fetched
+  // console.log(extractor.getLinkElements());
+  // setHeadComponents(extractor.getLinkElements());
+  // //
+  // // // Set script and style tags at the end of the document to parse the assets.
+  // setPostBodyComponents([...extractor.getScriptElements(), ...extractor.getStyleElements()]);
+  //
+  // // Reset collected chunks after each page is rendered
+  extractor.chunks = [];
+};
