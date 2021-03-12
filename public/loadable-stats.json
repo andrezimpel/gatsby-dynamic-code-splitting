@@ -1,5 +1,5 @@
 {
-  "hash": "d48b18b2c0a9b90ced5d",
+  "hash": "590f1fee430bb810dcae",
   "version": "5.25.0",
   "publicPath": "/",
   "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
@@ -8,10 +8,10 @@
       "polyfill-b94e88c7412185faa2fa.js"
     ],
     "app": [
-      "app-01a28a511041121339af.js"
+      "app-0faaa28e23b629299316.js"
     ],
     "webpack-runtime": [
-      "webpack-runtime-4b5c48be6c994c13d898.js"
+      "webpack-runtime-260325e8cc4d8b00d038.js"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
@@ -20,7 +20,7 @@
       "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
     ],
     "component---src-templates-page-js": [
-      "component---src-templates-page-js-678b1922ae74c5c56eb2.js"
+      "component---src-templates-page-js-f06aa3f60409cf2657f0.js"
     ],
     "one": [
       "one-bcaa416455bb76932a43.js"
@@ -176,19 +176,19 @@
     },
     {
       "type": "asset",
-      "name": "app-01a28a511041121339af.js",
-      "size": 74430,
+      "name": "app-0faaa28e23b629299316.js",
+      "size": 64943,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "01a28a511041121339af",
+        "contenthash": "0faaa28e23b629299316",
         "javascriptModule": false,
         "minimized": true,
         "related": {
-          "license": "app-01a28a511041121339af.js.LICENSE.txt",
-          "sourceMap": "app-01a28a511041121339af.js.map"
+          "license": "app-0faaa28e23b629299316.js.LICENSE.txt",
+          "sourceMap": "app-0faaa28e23b629299316.js.map"
         }
       },
       "chunkNames": [
@@ -201,8 +201,8 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "app-01a28a511041121339af.js.map",
-          "size": 332698,
+          "name": "app-0faaa28e23b629299316.js.map",
+          "size": 294305,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -224,8 +224,8 @@
         },
         {
           "type": "license",
-          "name": "app-01a28a511041121339af.js.LICENSE.txt",
-          "size": 341,
+          "name": "app-0faaa28e23b629299316.js.LICENSE.txt",
+          "size": 94,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -308,6 +308,80 @@
     },
     {
       "type": "asset",
+      "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js",
+      "size": 10596,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "f06aa3f60409cf2657f0",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.LICENSE.txt",
+          "sourceMap": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map"
+        }
+      },
+      "chunkNames": [
+        "component---src-templates-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map",
+          "size": 39083,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "component---src-templates-page-js"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            565
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.LICENSE.txt",
+          "size": 246,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        565
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "styles.ac46d673741bae581fd4.css",
       "size": 5384,
       "emitted": false,
@@ -335,18 +409,18 @@
     },
     {
       "type": "asset",
-      "name": "webpack-runtime-4b5c48be6c994c13d898.js",
+      "name": "webpack-runtime-260325e8cc4d8b00d038.js",
       "size": 5081,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "4b5c48be6c994c13d898",
+        "contenthash": "260325e8cc4d8b00d038",
         "javascriptModule": false,
         "minimized": true,
         "related": {
-          "sourceMap": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+          "sourceMap": "webpack-runtime-260325e8cc4d8b00d038.js.map"
         }
       },
       "chunkNames": [
@@ -359,7 +433,7 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map",
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map",
           "size": 22737,
           "emitted": false,
           "comparedForEmit": false,
@@ -433,60 +507,6 @@
       ],
       "chunks": [
         231
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js",
-      "size": 2424,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "678b1922ae74c5c56eb2",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map"
-        }
-      },
-      "chunkNames": [
-        "component---src-templates-page-js"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map",
-          "size": 2872,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "component---src-templates-page-js"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            565
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        565
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -868,9 +888,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 196887,
+      "size": 173782,
       "sizes": {
-        "javascript": 196887
+        "javascript": 173782
       },
       "names": [
         "app"
@@ -880,12 +900,12 @@
         "webpack-runtime"
       ],
       "files": [
-        "app-01a28a511041121339af.js"
+        "app-0faaa28e23b629299316.js"
       ],
       "auxiliaryFiles": [
-        "app-01a28a511041121339af.js.map"
+        "app-0faaa28e23b629299316.js.map"
       ],
-      "hash": "d54819319a376f69c9ce",
+      "hash": "2d96be6a1dc22999e6e6",
       "childrenByOrder": {},
       "id": 143,
       "siblings": [
@@ -1137,9 +1157,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 4334,
+      "size": 27567,
       "sizes": {
-        "javascript": 4334
+        "javascript": 27567
       },
       "names": [
         "component---src-templates-page-js"
@@ -1149,12 +1169,12 @@
         "webpack-runtime"
       ],
       "files": [
-        "component---src-templates-page-js-678b1922ae74c5c56eb2.js"
+        "component---src-templates-page-js-f06aa3f60409cf2657f0.js"
       ],
       "auxiliaryFiles": [
-        "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map"
+        "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map"
       ],
-      "hash": "920e191b9b9c2c45fc78",
+      "hash": "3421c5661c77f851bfcd",
       "childrenByOrder": {},
       "id": 565,
       "siblings": [
@@ -1191,12 +1211,12 @@
         "webpack-runtime"
       ],
       "files": [
-        "webpack-runtime-4b5c48be6c994c13d898.js"
+        "webpack-runtime-260325e8cc4d8b00d038.js"
       ],
       "auxiliaryFiles": [
-        "webpack-runtime-4b5c48be6c994c13d898.js.map"
+        "webpack-runtime-260325e8cc4d8b00d038.js.map"
       ],
-      "hash": "715e2b615ac23e266b3f",
+      "hash": "92c94d0a62b941085507",
       "childrenByOrder": {},
       "id": 658,
       "siblings": [
@@ -1453,7 +1473,7 @@
       ],
       "assets": [
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
         },
         {
           "name": "polyfill-b94e88c7412185faa2fa.js"
@@ -1466,7 +1486,7 @@
           "name": "polyfill-b94e88c7412185faa2fa.js.map"
         },
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
         }
       ],
       "filteredAuxiliaryAssets": 0,
@@ -1484,26 +1504,26 @@
       ],
       "assets": [
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
         },
         {
           "name": "framework-20672aedb31a67a4f0ae.js"
         },
         {
-          "name": "app-01a28a511041121339af.js"
+          "name": "app-0faaa28e23b629299316.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
       "auxiliaryAssets": [
         {
-          "name": "app-01a28a511041121339af.js.map"
+          "name": "app-0faaa28e23b629299316.js.map"
         },
         {
           "name": "framework-20672aedb31a67a4f0ae.js.map"
         },
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
         }
       ],
       "filteredAuxiliaryAssets": 0,
@@ -1522,7 +1542,7 @@
       ],
       "assets": [
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
         },
         {
           "name": "polyfill-b94e88c7412185faa2fa.js"
@@ -1535,7 +1555,7 @@
           "name": "polyfill-b94e88c7412185faa2fa.js.map"
         },
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
         }
       ],
       "filteredAuxiliaryAssets": 0,
@@ -1553,26 +1573,26 @@
       ],
       "assets": [
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
         },
         {
           "name": "framework-20672aedb31a67a4f0ae.js"
         },
         {
-          "name": "app-01a28a511041121339af.js"
+          "name": "app-0faaa28e23b629299316.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
       "auxiliaryAssets": [
         {
-          "name": "app-01a28a511041121339af.js.map"
+          "name": "app-0faaa28e23b629299316.js.map"
         },
         {
           "name": "framework-20672aedb31a67a4f0ae.js.map"
         },
         {
-          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
         }
       ],
       "filteredAuxiliaryAssets": 0,
@@ -1664,7 +1684,7 @@
           "name": "commons-8029785b798c4c419245.js"
         },
         {
-          "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js"
+          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js"
         }
       ],
       "filteredAssets": 0,
@@ -1674,7 +1694,7 @@
           "name": "commons-8029785b798c4c419245.js.map"
         },
         {
-          "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map"
+          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map"
         }
       ],
       "filteredAuxiliaryAssets": 0,
@@ -1762,7 +1782,7 @@
       "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
       "hash": "05be67e25fb8464ad65b",
       "version": "5.25.0",
-      "builtAt": 1615575839129,
+      "builtAt": 1615576138259,
       "publicPath": "/",
       "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
       "assetsByChunkName": {},
