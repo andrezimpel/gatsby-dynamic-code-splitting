@@ -1,0 +1,2157 @@
+{
+  "hash": "d48b18b2c0a9b90ced5d",
+  "version": "5.25.0",
+  "publicPath": "/",
+  "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
+  "assetsByChunkName": {
+    "polyfill": [
+      "polyfill-b94e88c7412185faa2fa.js"
+    ],
+    "app": [
+      "app-01a28a511041121339af.js"
+    ],
+    "webpack-runtime": [
+      "webpack-runtime-4b5c48be6c994c13d898.js"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
+    ],
+    "component---src-pages-using-typescript-tsx": [
+      "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
+    ],
+    "component---src-templates-page-js": [
+      "component---src-templates-page-js-678b1922ae74c5c56eb2.js"
+    ],
+    "one": [
+      "one-bcaa416455bb76932a43.js"
+    ],
+    "two": [
+      "two-5b4381fbb2b98235b306.js"
+    ],
+    "three": [
+      "three-dec6b3ad19f62b6f0a6b.js"
+    ],
+    "styles": [
+      "styles.ac46d673741bae581fd4.css"
+    ],
+    "framework": [
+      "framework-20672aedb31a67a4f0ae.js"
+    ],
+    "commons": [
+      "commons-8029785b798c4c419245.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "framework-20672aedb31a67a4f0ae.js",
+      "size": 128961,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "20672aedb31a67a4f0ae",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "framework-20672aedb31a67a4f0ae.js.LICENSE.txt",
+          "sourceMap": "framework-20672aedb31a67a4f0ae.js.map"
+        }
+      },
+      "chunkNames": [
+        "framework"
+      ],
+      "chunkIdHints": [
+        "framework"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "framework-20672aedb31a67a4f0ae.js.map",
+          "size": 319200,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "framework"
+          ],
+          "auxiliaryChunkIdHints": [
+            "framework"
+          ],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            774
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "framework-20672aedb31a67a4f0ae.js.LICENSE.txt",
+          "size": 736,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        774
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "polyfill-b94e88c7412185faa2fa.js",
+      "size": 93218,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "b94e88c7412185faa2fa",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "polyfill-b94e88c7412185faa2fa.js.map"
+        }
+      },
+      "chunkNames": [
+        "polyfill"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "polyfill-b94e88c7412185faa2fa.js.map",
+          "size": 249374,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "polyfill"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            920
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        920
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "app-01a28a511041121339af.js",
+      "size": 74430,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "01a28a511041121339af",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "app-01a28a511041121339af.js.LICENSE.txt",
+          "sourceMap": "app-01a28a511041121339af.js.map"
+        }
+      },
+      "chunkNames": [
+        "app"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "app-01a28a511041121339af.js.map",
+          "size": 332698,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "app"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            143
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "app-01a28a511041121339af.js.LICENSE.txt",
+          "size": 341,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        143
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons-8029785b798c4c419245.js",
+      "size": 16790,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "8029785b798c4c419245",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "commons-8029785b798c4c419245.js.map"
+        }
+      },
+      "chunkNames": [
+        "commons"
+      ],
+      "chunkIdHints": [
+        "commons"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "commons-8029785b798c4c419245.js.map",
+          "size": 69684,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "commons"
+          ],
+          "auxiliaryChunkIdHints": [
+            "commons"
+          ],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            351
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        351
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "styles.ac46d673741bae581fd4.css",
+      "size": 5384,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "ac46d673741bae581fd4",
+        "minimized": true
+      },
+      "chunkNames": [
+        "styles"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        532
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "webpack-runtime-4b5c48be6c994c13d898.js",
+      "size": 5081,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "4b5c48be6c994c13d898",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+        }
+      },
+      "chunkNames": [
+        "webpack-runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map",
+          "size": 22737,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "webpack-runtime"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            658
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        658
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "231-0a649ab5edcbda1ea140.js",
+      "size": 3135,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "0a649ab5edcbda1ea140",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "231-0a649ab5edcbda1ea140.js.map"
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "231-0a649ab5edcbda1ea140.js.map",
+          "size": 8449,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            231
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        231
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js",
+      "size": 2424,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "678b1922ae74c5c56eb2",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map"
+        }
+      },
+      "chunkNames": [
+        "component---src-templates-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map",
+          "size": 2872,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "component---src-templates-page-js"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            565
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        565
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js",
+      "size": 1317,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "3533779c4933c8a67b2b",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map"
+        }
+      },
+      "chunkNames": [
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map",
+          "size": 2049,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "component---src-pages-using-typescript-tsx"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            970
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        970
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "456-142cfb14568c2a8d8ea5.js",
+      "size": 1283,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "142cfb14568c2a8d8ea5",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "456-142cfb14568c2a8d8ea5.js.map"
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "456-142cfb14568c2a8d8ea5.js.map",
+          "size": 4430,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            456
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        456
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "175-2b91e102e28547caf3ba.js",
+      "size": 811,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "2b91e102e28547caf3ba",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "175-2b91e102e28547caf3ba.js.map"
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "175-2b91e102e28547caf3ba.js.map",
+          "size": 3302,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            175
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        175
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js",
+      "size": 469,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "1d2c1e275d588f4cc889",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map"
+        }
+      },
+      "chunkNames": [
+        "component---src-pages-404-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map",
+          "size": 629,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "component---src-pages-404-js"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            883
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        883
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "three-dec6b3ad19f62b6f0a6b.js",
+      "size": 300,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "dec6b3ad19f62b6f0a6b",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "three-dec6b3ad19f62b6f0a6b.js.map"
+        }
+      },
+      "chunkNames": [
+        "three"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "three-dec6b3ad19f62b6f0a6b.js.map",
+          "size": 481,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "three"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            841
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        841
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "one-bcaa416455bb76932a43.js",
+      "size": 296,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "bcaa416455bb76932a43",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "one-bcaa416455bb76932a43.js.map"
+        }
+      },
+      "chunkNames": [
+        "one"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "one-bcaa416455bb76932a43.js.map",
+          "size": 471,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "one"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            255
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        255
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "two-5b4381fbb2b98235b306.js",
+      "size": 296,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "5b4381fbb2b98235b306",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "two-5b4381fbb2b98235b306.js.map"
+        }
+      },
+      "chunkNames": [
+        "two"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "two-5b4381fbb2b98235b306.js.map",
+          "size": 473,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "two"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            804
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        804
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 196887,
+      "sizes": {
+        "javascript": 196887
+      },
+      "names": [
+        "app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "app-01a28a511041121339af.js"
+      ],
+      "auxiliaryFiles": [
+        "app-01a28a511041121339af.js.map"
+      ],
+      "hash": "d54819319a376f69c9ce",
+      "childrenByOrder": {},
+      "id": 143,
+      "siblings": [
+        658,
+        774
+      ],
+      "parents": [],
+      "children": [
+        175,
+        231,
+        351,
+        456,
+        532,
+        565,
+        883,
+        970
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 616,
+      "sizes": {
+        "javascript": 616
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "175-2b91e102e28547caf3ba.js"
+      ],
+      "auxiliaryFiles": [
+        "175-2b91e102e28547caf3ba.js.map"
+      ],
+      "hash": "94f9eafd5d25feb35720",
+      "childrenByOrder": {},
+      "id": 175,
+      "siblings": [],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 4271,
+      "sizes": {
+        "javascript": 4271
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "231-0a649ab5edcbda1ea140.js"
+      ],
+      "auxiliaryFiles": [
+        "231-0a649ab5edcbda1ea140.js.map"
+      ],
+      "hash": "ba9c52b9eb107e5bf1c5",
+      "childrenByOrder": {},
+      "id": 231,
+      "siblings": [],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 222,
+      "sizes": {
+        "javascript": 222
+      },
+      "names": [
+        "one"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "one-bcaa416455bb76932a43.js"
+      ],
+      "auxiliaryFiles": [
+        "one-bcaa416455bb76932a43.js.map"
+      ],
+      "hash": "f6e68726abdc16fa0bdf",
+      "childrenByOrder": {},
+      "id": 255,
+      "siblings": [],
+      "parents": [
+        351,
+        532,
+        565
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: commons) (name: commons)",
+      "size": 43256,
+      "sizes": {
+        "javascript": 43256
+      },
+      "names": [
+        "commons"
+      ],
+      "idHints": [
+        "commons"
+      ],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "commons-8029785b798c4c419245.js"
+      ],
+      "auxiliaryFiles": [
+        "commons-8029785b798c4c419245.js.map"
+      ],
+      "hash": "55c72f149828b324f753",
+      "childrenByOrder": {},
+      "id": 351,
+      "siblings": [
+        532,
+        565,
+        883,
+        970
+      ],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [
+        255,
+        804,
+        841
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1259,
+      "sizes": {
+        "javascript": 1259
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "456-142cfb14568c2a8d8ea5.js"
+      ],
+      "auxiliaryFiles": [
+        "456-142cfb14568c2a8d8ea5.js.map"
+      ],
+      "hash": "2066c3f96fb5724845c5",
+      "childrenByOrder": {},
+      "id": 456,
+      "siblings": [],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: styles) (name: styles)",
+      "size": 10911,
+      "sizes": {
+        "css/mini-extract": 10911
+      },
+      "names": [
+        "styles"
+      ],
+      "idHints": [
+        "styles"
+      ],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "styles.ac46d673741bae581fd4.css"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "b167f4d08f689b2069fc",
+      "childrenByOrder": {},
+      "id": 532,
+      "siblings": [
+        351,
+        565,
+        883,
+        970
+      ],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [
+        255,
+        804,
+        841
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 4334,
+      "sizes": {
+        "javascript": 4334
+      },
+      "names": [
+        "component---src-templates-page-js"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "component---src-templates-page-js-678b1922ae74c5c56eb2.js"
+      ],
+      "auxiliaryFiles": [
+        "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map"
+      ],
+      "hash": "920e191b9b9c2c45fc78",
+      "childrenByOrder": {},
+      "id": 565,
+      "siblings": [
+        351,
+        532
+      ],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [
+        255,
+        804,
+        841
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 11713,
+      "sizes": {
+        "runtime": 11713
+      },
+      "names": [
+        "webpack-runtime"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "webpack-runtime-4b5c48be6c994c13d898.js"
+      ],
+      "auxiliaryFiles": [
+        "webpack-runtime-4b5c48be6c994c13d898.js.map"
+      ],
+      "hash": "715e2b615ac23e266b3f",
+      "childrenByOrder": {},
+      "id": 658,
+      "siblings": [
+        143,
+        774,
+        920
+      ],
+      "parents": [],
+      "children": [
+        175,
+        231,
+        351,
+        456,
+        532,
+        565,
+        883,
+        970
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: framework) (name: framework)",
+      "size": 136364,
+      "sizes": {
+        "javascript": 136364
+      },
+      "names": [
+        "framework"
+      ],
+      "idHints": [
+        "framework"
+      ],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "framework-20672aedb31a67a4f0ae.js"
+      ],
+      "auxiliaryFiles": [
+        "framework-20672aedb31a67a4f0ae.js.map"
+      ],
+      "hash": "5548a47c3b8be18fafff",
+      "childrenByOrder": {},
+      "id": 774,
+      "siblings": [
+        143,
+        658
+      ],
+      "parents": [],
+      "children": [
+        175,
+        231,
+        351,
+        456,
+        532,
+        565,
+        883,
+        970
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 224,
+      "sizes": {
+        "javascript": 224
+      },
+      "names": [
+        "two"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "two-5b4381fbb2b98235b306.js"
+      ],
+      "auxiliaryFiles": [
+        "two-5b4381fbb2b98235b306.js.map"
+      ],
+      "hash": "dff815531caee852f1f2",
+      "childrenByOrder": {},
+      "id": 804,
+      "siblings": [],
+      "parents": [
+        351,
+        532,
+        565
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 230,
+      "sizes": {
+        "javascript": 230
+      },
+      "names": [
+        "three"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "three-dec6b3ad19f62b6f0a6b.js"
+      ],
+      "auxiliaryFiles": [
+        "three-dec6b3ad19f62b6f0a6b.js.map"
+      ],
+      "hash": "bec8d031cdd3a22608b2",
+      "childrenByOrder": {},
+      "id": 841,
+      "siblings": [],
+      "parents": [
+        351,
+        532,
+        565
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 452,
+      "sizes": {
+        "javascript": 452
+      },
+      "names": [
+        "component---src-pages-404-js"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
+      ],
+      "auxiliaryFiles": [
+        "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map"
+      ],
+      "hash": "e1f354872ec3f6a000f7",
+      "childrenByOrder": {},
+      "id": 883,
+      "siblings": [
+        351,
+        532
+      ],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 113825,
+      "sizes": {
+        "javascript": 113825
+      },
+      "names": [
+        "polyfill"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "polyfill-b94e88c7412185faa2fa.js"
+      ],
+      "auxiliaryFiles": [
+        "polyfill-b94e88c7412185faa2fa.js.map"
+      ],
+      "hash": "58212ae59b1a96e1d438",
+      "childrenByOrder": {},
+      "id": 920,
+      "siblings": [
+        658
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1708,
+      "sizes": {
+        "javascript": 1708
+      },
+      "names": [
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "idHints": [],
+      "runtime": [
+        "webpack-runtime"
+      ],
+      "files": [
+        "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
+      ],
+      "auxiliaryFiles": [
+        "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map"
+      ],
+      "hash": "8baf6787756a0930aa4b",
+      "childrenByOrder": {},
+      "id": 970,
+      "siblings": [
+        351,
+        532
+      ],
+      "parents": [
+        143,
+        658,
+        774
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    }
+  ],
+  "entrypoints": {
+    "polyfill": {
+      "name": "polyfill",
+      "chunks": [
+        658,
+        920
+      ],
+      "assets": [
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+        },
+        {
+          "name": "polyfill-b94e88c7412185faa2fa.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "polyfill-b94e88c7412185faa2fa.js.map"
+        },
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "app": {
+      "name": "app",
+      "chunks": [
+        658,
+        774,
+        143
+      ],
+      "assets": [
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+        },
+        {
+          "name": "framework-20672aedb31a67a4f0ae.js"
+        },
+        {
+          "name": "app-01a28a511041121339af.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "app-01a28a511041121339af.js.map"
+        },
+        {
+          "name": "framework-20672aedb31a67a4f0ae.js.map"
+        },
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "polyfill": {
+      "name": "polyfill",
+      "chunks": [
+        658,
+        920
+      ],
+      "assets": [
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+        },
+        {
+          "name": "polyfill-b94e88c7412185faa2fa.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "polyfill-b94e88c7412185faa2fa.js.map"
+        },
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "app": {
+      "name": "app",
+      "chunks": [
+        658,
+        774,
+        143
+      ],
+      "assets": [
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js"
+        },
+        {
+          "name": "framework-20672aedb31a67a4f0ae.js"
+        },
+        {
+          "name": "app-01a28a511041121339af.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "app-01a28a511041121339af.js.map"
+        },
+        {
+          "name": "framework-20672aedb31a67a4f0ae.js.map"
+        },
+        {
+          "name": "webpack-runtime-4b5c48be6c994c13d898.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---src-pages-404-js": {
+      "name": "component---src-pages-404-js",
+      "chunks": [
+        532,
+        351,
+        883
+      ],
+      "assets": [
+        {
+          "name": "styles.ac46d673741bae581fd4.css"
+        },
+        {
+          "name": "commons-8029785b798c4c419245.js"
+        },
+        {
+          "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "commons-8029785b798c4c419245.js.map"
+        },
+        {
+          "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---src-pages-using-typescript-tsx": {
+      "name": "component---src-pages-using-typescript-tsx",
+      "chunks": [
+        532,
+        351,
+        970
+      ],
+      "assets": [
+        {
+          "name": "styles.ac46d673741bae581fd4.css"
+        },
+        {
+          "name": "commons-8029785b798c4c419245.js"
+        },
+        {
+          "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "commons-8029785b798c4c419245.js.map"
+        },
+        {
+          "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---src-templates-page-js": {
+      "name": "component---src-templates-page-js",
+      "chunks": [
+        532,
+        351,
+        565
+      ],
+      "assets": [
+        {
+          "name": "styles.ac46d673741bae581fd4.css"
+        },
+        {
+          "name": "commons-8029785b798c4c419245.js"
+        },
+        {
+          "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "commons-8029785b798c4c419245.js.map"
+        },
+        {
+          "name": "component---src-templates-page-js-678b1922ae74c5c56eb2.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "one": {
+      "name": "one",
+      "chunks": [
+        255
+      ],
+      "assets": [
+        {
+          "name": "one-bcaa416455bb76932a43.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "one-bcaa416455bb76932a43.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "two": {
+      "name": "two",
+      "chunks": [
+        804
+      ],
+      "assets": [
+        {
+          "name": "two-5b4381fbb2b98235b306.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "two-5b4381fbb2b98235b306.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "three": {
+      "name": "three",
+      "chunks": [
+        841
+      ],
+      "assets": [
+        {
+          "name": "three-dec6b3ad19f62b6f0a6b.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "three-dec6b3ad19f62b6f0a6b.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+      "hash": "05be67e25fb8464ad65b",
+      "version": "5.25.0",
+      "builtAt": 1615575839129,
+      "publicPath": "/",
+      "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 14478,
+          "sizes": {
+            "javascript": 13481,
+            "runtime": 997
+          },
+          "names": [
+            "child"
+          ],
+          "idHints": [],
+          "runtime": [
+            "child"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "56817a5846db7910fe41",
+          "childrenByOrder": {},
+          "id": 396,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 11876,
+              "sizes": {
+                "javascript": 11876
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 777,
+              "issuerId": null,
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "loc": "child",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "id": 777
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 84,
+              "issuerId": 777,
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 84,
+                  "resolvedModuleId": 84
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-92",
+                  "moduleId": 777,
+                  "resolvedModuleId": 777
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 777,
+                  "resolvedModuleId": 777
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "child",
+              "request": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ],
+  "generator": "loadable-components"
+}

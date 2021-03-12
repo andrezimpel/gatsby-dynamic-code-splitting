@@ -10,25 +10,25 @@ exports.createPages = async ({ graphql, actions }) => {
       title: 'home',
       slug: "/",
       sections: [
-        { __typename: "One" },
-        { __typename: "Two" }
+        { __typename: "One", id: `u2398nfu289f` },
+        { __typename: "Two", id: `8unwe8vu9w` }
       ]
     },
     {
       title: 'second',
       slug: "/second",
       sections: [
-        { __typename: "One" },
-        { __typename: "Three" },
-        { __typename: "Two" }
+        { __typename: "One", id: `wen8fun89w` },
+        { __typename: "Three", id: `we90fiw0e9w` },
+        { __typename: "Two", id: `we9fnuweu0fn` }
       ]
     },
     {
       title: 'third',
       slug: "/third",
       sections: [
-        { __typename: "One" },
-        { __typename: "Three" }
+        { __typename: "One", id: `232fjkhwfef` },
+        { __typename: "Three", id: `svsdjfbhwkf` }
       ]
     }
   ]
@@ -58,5 +58,5 @@ exports.onCreateBabelConfig = ({ actions }) => {
 
 exports.onPostBuild = () => {
   // Clean after ourselves
-  unlinkSync(statsPath);
+  // unlinkSync(statsPath);
 };

@@ -14,8 +14,8 @@ const SectionRenderer = ({ sections=[] }) => {
     const ModuleComponent = SECTION_MAP[section.__typename]
     return <ModuleComponent
       key={index}
-      id={section.__typename}
-      fallback={getFallback(section.__typename)}
+      id={section.id}
+      fallback={getFallback(section.id)}
     />
   })
 }
@@ -23,7 +23,7 @@ const SectionRenderer = ({ sections=[] }) => {
 const getFallback = (id) => {
   if (typeof window === 'undefined') return ''
   const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
-  return element ? element.innerHTML : ''
+  return element ? element : ''
 }
 
 export default SectionRenderer
