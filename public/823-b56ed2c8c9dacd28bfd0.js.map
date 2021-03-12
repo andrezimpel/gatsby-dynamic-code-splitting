@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gatsby-starter-default/./src/components/sections/one.js"],"names":[],"mappings":"0JAMA,UAJmB,WACjB,OAAO","file":"823-b56ed2c8c9dacd28bfd0.js","sourcesContent":["import React from 'react'\n\nconst SectionOne = () => {\n  return <div>section one</div>\n}\n\nexport default SectionOne\n"],"sourceRoot":""}
