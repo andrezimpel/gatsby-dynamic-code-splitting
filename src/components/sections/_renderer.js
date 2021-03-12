@@ -2,9 +2,15 @@ import React from 'react'
 import loadable from '@loadable/component'
 
 const SECTION_MAP = {
-  One: loadable(() => import('./one')),
-  Two: loadable(() => import('./two')),
-  Three: loadable(() => import('./three')),
+  One: loadable(() => import('./one'), {
+    fallback: <div>Loading...</div>
+  }),
+  Two: loadable(() => import('./two'), {
+    fallback: <div>Loading...</div>
+  }),
+  Three: loadable(() => import('./three'), {
+    fallback: <div>Loading...</div>
+  }),
 }
 
 const SectionRenderer = ({ sections=[] }) => {
