@@ -1,145 +1,1263 @@
 {
-  "hash": "31f4742c2bb03bc91358",
+  "hash": "e06229adf9f7d6cc825b",
   "version": "5.25.0",
   "publicPath": "/",
-  "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
+  "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
   "assetsByChunkName": {
-    "main": [
-      "render-page.js"
+    "polyfill": [
+      "polyfill.js",
+      "polyfill.cca9bfdf9a86a8a95d6f.hot-update.js"
+    ],
+    "commons": [
+      "commons.css",
+      "commons.js",
+      "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
+    ],
+    "component---cache-dev-404-page-js": [
+      "component---cache-dev-404-page-js.js"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js.js"
+    ],
+    "component---src-pages-using-typescript-tsx": [
+      "component---src-pages-using-typescript-tsx.js"
+    ],
+    "component---src-templates-page-js": [
+      "component---src-templates-page-js.js"
+    ],
+    "one": [
+      "one.js"
+    ],
+    "two": [
+      "two.js"
+    ],
+    "three": [
+      "three.js"
+    ],
+    "framework": [
+      "framework.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "render-page.js",
-      "size": 1122444,
+      "name": "commons.js",
+      "size": 2886163,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false,
-        "related": {
-          "sourceMap": "render-page.js.map"
-        }
+        "javascriptModule": false
       },
       "chunkNames": [
-        "main"
+        "commons"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "commons"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "framework.js",
+      "size": 2684128,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "framework"
+      ],
+      "chunkIdHints": [
+        "framework",
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "framework"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "polyfill.js",
+      "size": 1152368,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "polyfill"
       ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "render-page.js.map",
-          "size": 1235497,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "main"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "main"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        "main"
+        "polyfill"
       ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-templates-page-js.js",
+      "size": 174145,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "component---src-templates-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---src-templates-page-js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-pages-using-typescript-tsx.js",
+      "size": 159964,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-pages-404-js.js",
+      "size": 154895,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "component---src-pages-404-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---src-pages-404-js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---cache-dev-404-page-js.js",
+      "size": 65054,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "component---cache-dev-404-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---cache-dev-404-page-js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js.js",
+      "size": 12907,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.css",
+      "size": 10913,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [
+        "commons"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "commons"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js.js",
+      "size": 9270,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js.js",
+      "size": 9031,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "three.js",
+      "size": 5994,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "three"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "three"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "one.js",
+      "size": 5959,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "one"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "one"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "two.js",
+      "size": 5958,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "two"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "two"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "_cache_dummy_js.js",
+      "size": 5008,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "_cache_dummy_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "polyfill.cca9bfdf9a86a8a95d6f.hot-update.js",
+      "size": 900,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cca9bfdf9a86a8a95d6f"
+      },
+      "chunkNames": [
+        "polyfill"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "polyfill"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.js",
+      "size": 899,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cca9bfdf9a86a8a95d6f"
+      },
+      "chunkNames": [
+        "commons"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "commons"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "polyfill.cca9bfdf9a86a8a95d6f.hot-update.json",
+      "size": 32,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cca9bfdf9a86a8a95d6f"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.json",
+      "size": 31,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cca9bfdf9a86a8a95d6f"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 2708,
+      "sizes": {
+        "javascript": 2708
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "_cache_dummy_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "5d33f26cbd27a9dd24d0",
+      "childrenByOrder": {},
+      "id": "_cache_dummy_js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
       "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 963231,
+      "reason": "split chunk (cache group: styles) (name: commons)",
+      "size": 1048947,
       "sizes": {
-        "javascript": 962171,
-        "runtime": 1060
+        "javascript": 1001190,
+        "css/mini-extract": 10911,
+        "runtime": 36846
       },
       "names": [
-        "main"
+        "commons"
+      ],
+      "idHints": [
+        "styles"
+      ],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "commons.css",
+        "commons.js",
+        "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "23f605f0863625299af7",
+      "childrenByOrder": {},
+      "id": "commons",
+      "siblings": [
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [
+        "_cache_dummy_js",
+        "commons",
+        "component---cache-dev-404-page-js",
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js",
+        "framework",
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js",
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+        "one",
+        "three",
+        "two"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 23957,
+      "sizes": {
+        "javascript": 23957
+      },
+      "names": [
+        "component---cache-dev-404-page-js"
       ],
       "idHints": [],
       "runtime": [
-        "main"
+        "commons"
       ],
       "files": [
-        "render-page.js"
+        "component---cache-dev-404-page-js.js"
       ],
-      "auxiliaryFiles": [
-        "render-page.js.map"
-      ],
-      "hash": "8697034039295656e9fc",
+      "auxiliaryFiles": [],
+      "hash": "ae93daa7a49f0755ebd0",
       "childrenByOrder": {},
-      "id": "main",
+      "id": "component---cache-dev-404-page-js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 61327,
+      "sizes": {
+        "javascript": 61327
+      },
+      "names": [
+        "component---src-pages-404-js"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "component---src-pages-404-js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "30efd9484386177dc2cb",
+      "childrenByOrder": {},
+      "id": "component---src-pages-404-js",
+      "siblings": [
+        "commons",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 63734,
+      "sizes": {
+        "javascript": 63734
+      },
+      "names": [
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "component---src-pages-using-typescript-tsx.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "67629f4d47e8d39e645d",
+      "childrenByOrder": {},
+      "id": "component---src-pages-using-typescript-tsx",
+      "siblings": [
+        "commons",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 72741,
+      "sizes": {
+        "javascript": 72741
+      },
+      "names": [
+        "component---src-templates-page-js"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "component---src-templates-page-js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a28bf65aa482ccf49549",
+      "childrenByOrder": {},
+      "id": "component---src-templates-page-js",
+      "siblings": [
+        "commons",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [
+        "one",
+        "three",
+        "two"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: framework) (name: framework)",
+      "size": 1027197,
+      "sizes": {
+        "javascript": 1027197
+      },
+      "names": [
+        "framework"
+      ],
+      "idHints": [
+        "styles",
+        "framework"
+      ],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "framework.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "d9707d35ed13f7c14033",
+      "childrenByOrder": {},
+      "id": "framework",
+      "siblings": [
+        "commons",
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [
+        "_cache_dummy_js",
+        "commons",
+        "component---cache-dev-404-page-js",
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js",
+        "framework",
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js",
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+        "one",
+        "three",
+        "two"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3405,
+      "sizes": {
+        "javascript": 3405
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "f18b228454e7f38da8b1",
+      "childrenByOrder": {},
+      "id": "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 4314,
+      "sizes": {
+        "javascript": 4314
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "ba3ee0964252a0ec1314",
+      "childrenByOrder": {},
+      "id": "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 2981,
+      "sizes": {
+        "javascript": 2981
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a57dbba1145f50071a56",
+      "childrenByOrder": {},
+      "id": "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3204,
+      "sizes": {
+        "javascript": 3204
+      },
+      "names": [
+        "one"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "one.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "e3fad5c9ceb70aacda0a",
+      "childrenByOrder": {},
+      "id": "one",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "component---src-templates-page-js",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 427215,
+      "sizes": {
+        "javascript": 395813,
+        "runtime": 31402
+      },
+      "names": [
+        "polyfill"
+      ],
+      "idHints": [],
+      "runtime": [
+        "polyfill"
+      ],
+      "files": [
+        "polyfill.js",
+        "polyfill.cca9bfdf9a86a8a95d6f.hot-update.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "f3cd0b2de343edc2254e",
+      "childrenByOrder": {},
+      "id": "polyfill",
       "siblings": [],
       "parents": [],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3215,
+      "sizes": {
+        "javascript": 3215
+      },
+      "names": [
+        "three"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "three.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "f497e2bf0b8c399f720c",
+      "childrenByOrder": {},
+      "id": "three",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "component---src-templates-page-js",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3203,
+      "sizes": {
+        "javascript": 3203
+      },
+      "names": [
+        "two"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "two.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "731e123ce54908f5fff9",
+      "childrenByOrder": {},
+      "id": "two",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "component---src-templates-page-js",
+        "framework"
+      ],
       "children": [],
       "modules": [],
       "origins": []
     }
   ],
   "entrypoints": {
-    "main": {
-      "name": "main",
+    "polyfill": {
+      "name": "polyfill",
       "chunks": [
-        "main"
+        "polyfill"
       ],
       "assets": [
         {
-          "name": "render-page.js"
+          "name": "polyfill.js"
+        },
+        {
+          "name": "polyfill.cca9bfdf9a86a8a95d6f.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "commons": {
+      "name": "commons",
+      "chunks": [
+        "framework",
+        "commons"
+      ],
+      "assets": [
         {
-          "name": "render-page.js.map"
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
         }
       ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
     }
   },
   "namedChunkGroups": {
-    "main": {
-      "name": "main",
+    "polyfill": {
+      "name": "polyfill",
       "chunks": [
-        "main"
+        "polyfill"
       ],
       "assets": [
         {
-          "name": "render-page.js"
+          "name": "polyfill.js"
+        },
+        {
+          "name": "polyfill.cca9bfdf9a86a8a95d6f.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "commons": {
+      "name": "commons",
+      "chunks": [
+        "framework",
+        "commons"
+      ],
+      "assets": [
         {
-          "name": "render-page.js.map"
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
         }
       ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---cache-dev-404-page-js": {
+      "name": "component---cache-dev-404-page-js",
+      "chunks": [
+        "component---cache-dev-404-page-js"
+      ],
+      "assets": [
+        {
+          "name": "component---cache-dev-404-page-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---src-pages-404-js": {
+      "name": "component---src-pages-404-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-404-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
+        },
+        {
+          "name": "component---src-pages-404-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---src-pages-using-typescript-tsx": {
+      "name": "component---src-pages-using-typescript-tsx",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
+        },
+        {
+          "name": "component---src-pages-using-typescript-tsx.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---src-templates-page-js": {
+      "name": "component---src-templates-page-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-templates-page-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "commons.cca9bfdf9a86a8a95d6f.hot-update.js"
+        },
+        {
+          "name": "component---src-templates-page-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "one": {
+      "name": "one",
+      "chunks": [
+        "one"
+      ],
+      "assets": [
+        {
+          "name": "one.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "two": {
+      "name": "two",
+      "chunks": [
+        "two"
+      ],
+      "assets": [
+        {
+          "name": "two.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "three": {
+      "name": "three",
+      "chunks": [
+        "three"
+      ],
+      "assets": [
+        {
+          "name": "three.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -147,18 +1265,8 @@
   },
   "errors": [],
   "errorsCount": 0,
-  "warnings": [
-    {
-      "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/dist/utils/babel-loader.js??ruleSet[1].rules[2].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/static-entry.js",
-      "moduleName": "./.cache/static-entry.js",
-      "loc": "6:221-243",
-      "message": "Module not found: Error: Can't resolve '../src/html' in '/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache'",
-      "moduleId": "./.cache/static-entry.js",
-      "moduleTrace": [],
-      "stack": "ModuleNotFoundError: Module not found: Error: Can't resolve '../src/html' in '/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache'\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/Compilation.js:1665:28\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:700:13\n    at eval (eval at create (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:271:22\n    at eval (eval at create (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:400:22\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:117:11\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:624:24\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:766:8\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:886:5\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/neo-async/async.js:6883:13\n    at Array.<anonymous> (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:861:14)\n    at arrayEachFunc (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/neo-async/async.js:2517:19)\n    at Object.parallel (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/neo-async/async.js:6858:9)\n    at NormalModuleFactory._resolveResourceErrorHints (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:784:12)\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:745:18"
-    }
-  ],
-  "warningsCount": 1,
+  "warnings": [],
+  "warningsCount": 0,
   "children": [],
   "generator": "loadable-components"
 }
