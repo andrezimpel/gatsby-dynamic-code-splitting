@@ -14,7 +14,7 @@ const SectionRenderer = ({ sections=[] }) => {
       <ModuleComponent
         key={index}
         id={section.id}
-        fallback={null}
+        fallback={getFallback(section.id)}
       />
     )
   })
@@ -23,6 +23,7 @@ const SectionRenderer = ({ sections=[] }) => {
 const getFallback = (id) => {
   if (typeof window === 'undefined') return null
   const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
+  console.log(element);
   return element ? element : null
 }
 
