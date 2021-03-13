@@ -1,15 +1,17 @@
 {
-  "hash": "8685e2b33a2d0168e08c",
+  "hash": "a9eed20850cfb4eb7c82",
   "version": "5.25.0",
   "publicPath": "/",
   "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
   "assetsByChunkName": {
     "polyfill": [
-      "polyfill.js"
+      "polyfill.js",
+      "polyfill.3f916a97b4da40d3886f.hot-update.js"
     ],
     "commons": [
       "commons.css",
-      "commons.js"
+      "commons.js",
+      "commons.3f916a97b4da40d3886f.hot-update.js"
     ],
     "component---cache-dev-404-page-js": [
       "component---cache-dev-404-page-js.js"
@@ -40,7 +42,7 @@
     {
       "type": "asset",
       "name": "commons.js",
-      "size": 2827906,
+      "size": 2886163,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -114,7 +116,7 @@
     {
       "type": "asset",
       "name": "component---src-templates-page-js.js",
-      "size": 232697,
+      "size": 174543,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -183,7 +185,7 @@
     {
       "type": "asset",
       "name": "component---cache-dev-404-page-js.js",
-      "size": 66823,
+      "size": 65054,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -314,6 +316,29 @@
     },
     {
       "type": "asset",
+      "name": "one.js",
+      "size": 5959,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "one"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "one"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "two.js",
       "size": 5958,
       "emitted": false,
@@ -331,29 +356,6 @@
       "related": {},
       "chunks": [
         "two"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "one.js",
-      "size": 5952,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [
-        "one"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "one"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -378,11 +380,105 @@
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "polyfill.3f916a97b4da40d3886f.hot-update.js",
+      "size": 900,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "3f916a97b4da40d3886f"
+      },
+      "chunkNames": [
+        "polyfill"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "polyfill"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.3f916a97b4da40d3886f.hot-update.js",
+      "size": 899,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "3f916a97b4da40d3886f"
+      },
+      "chunkNames": [
+        "commons"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "commons"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "polyfill.3f916a97b4da40d3886f.hot-update.json",
+      "size": 32,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "3f916a97b4da40d3886f"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.3f916a97b4da40d3886f.hot-update.json",
+      "size": 31,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "3f916a97b4da40d3886f"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -417,9 +513,9 @@
       "entry": true,
       "recorded": false,
       "reason": "split chunk (cache group: styles) (name: commons)",
-      "size": 1029795,
+      "size": 1048947,
       "sizes": {
-        "javascript": 982038,
+        "javascript": 1001190,
         "css/mini-extract": 10911,
         "runtime": 36846
       },
@@ -434,10 +530,11 @@
       ],
       "files": [
         "commons.css",
-        "commons.js"
+        "commons.js",
+        "commons.3f916a97b4da40d3886f.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "093322d94122c1bdbb55",
+      "hash": "44f9c52e5b2a1150bc97",
       "childrenByOrder": {},
       "id": "commons",
       "siblings": [
@@ -469,13 +566,13 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 24149,
+      "size": 23957,
       "sizes": {
-        "javascript": 24149
+        "javascript": 23957
       },
       "names": [
         "component---cache-dev-404-page-js"
@@ -488,7 +585,7 @@
         "component---cache-dev-404-page-js.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "02e04fb90323327e23a4",
+      "hash": "ae93daa7a49f0755ebd0",
       "childrenByOrder": {},
       "id": "component---cache-dev-404-page-js",
       "siblings": [],
@@ -501,7 +598,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -520,7 +617,7 @@
         "component---src-pages-404-js.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "9d89fafb24a50cb70132",
+      "hash": "0a156a695712a2852ef5",
       "childrenByOrder": {},
       "id": "component---src-pages-404-js",
       "siblings": [
@@ -536,7 +633,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -555,7 +652,7 @@
         "component---src-pages-using-typescript-tsx.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "9a8c98d203e427d25636",
+      "hash": "81f9072839654f4fd965",
       "childrenByOrder": {},
       "id": "component---src-pages-using-typescript-tsx",
       "siblings": [
@@ -571,13 +668,13 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 92283,
+      "size": 72975,
       "sizes": {
-        "javascript": 92283
+        "javascript": 72975
       },
       "names": [
         "component---src-templates-page-js"
@@ -590,7 +687,7 @@
         "component---src-templates-page-js.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "8c4dc5e49e769dd493aa",
+      "hash": "deabf22ca2f64e938a9b",
       "childrenByOrder": {},
       "id": "component---src-templates-page-js",
       "siblings": [
@@ -610,7 +707,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": false,
       "recorded": false,
@@ -665,7 +762,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -695,7 +792,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -725,7 +822,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -755,13 +852,13 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3201,
+      "size": 3204,
       "sizes": {
-        "javascript": 3201
+        "javascript": 3204
       },
       "names": [
         "one"
@@ -774,7 +871,7 @@
         "one.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "d39715a41170725913d8",
+      "hash": "e3fad5c9ceb70aacda0a",
       "childrenByOrder": {},
       "id": "one",
       "siblings": [],
@@ -805,10 +902,11 @@
         "polyfill"
       ],
       "files": [
-        "polyfill.js"
+        "polyfill.js",
+        "polyfill.3f916a97b4da40d3886f.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "5af89db0f91e50661abb",
+      "hash": "0e8a12b7b76a8f454ed2",
       "childrenByOrder": {},
       "id": "polyfill",
       "siblings": [],
@@ -818,7 +916,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -851,7 +949,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -893,6 +991,9 @@
       "assets": [
         {
           "name": "polyfill.js"
+        },
+        {
+          "name": "polyfill.3f916a97b4da40d3886f.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -919,6 +1020,9 @@
         },
         {
           "name": "commons.js"
+        },
+        {
+          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -940,6 +1044,9 @@
       "assets": [
         {
           "name": "polyfill.js"
+        },
+        {
+          "name": "polyfill.3f916a97b4da40d3886f.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -966,6 +1073,9 @@
         },
         {
           "name": "commons.js"
+        },
+        {
+          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1014,6 +1124,9 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+        },
+        {
           "name": "component---src-pages-404-js.js"
         }
       ],
@@ -1044,6 +1157,9 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+        },
+        {
           "name": "component---src-pages-using-typescript-tsx.js"
         }
       ],
@@ -1072,6 +1188,9 @@
         },
         {
           "name": "commons.js"
+        },
+        {
+          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
         },
         {
           "name": "component---src-templates-page-js.js"
@@ -1148,967 +1267,6 @@
   "errorsCount": 0,
   "warnings": [],
   "warningsCount": 0,
-  "children": [
-    {
-      "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-      "hash": "0b194a546b5fdf84246c",
-      "version": "5.25.0",
-      "builtAt": 1615619919865,
-      "publicPath": "/",
-      "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
-      "assetsByChunkName": {},
-      "assets": [],
-      "chunks": [
-        {
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "recorded": false,
-          "size": 5366,
-          "sizes": {
-            "javascript": 4369,
-            "runtime": 997
-          },
-          "names": [
-            "child"
-          ],
-          "idHints": [],
-          "runtime": [
-            "child"
-          ],
-          "files": [],
-          "auxiliaryFiles": [],
-          "hash": "2592e66a204d2c1ac883",
-          "childrenByOrder": {},
-          "id": "child",
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "modules": [
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 498,
-              "sizes": {
-                "javascript": 498
-              },
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-              "index": 0,
-              "preOrderIndex": 0,
-              "index2": 2,
-              "postOrderIndex": 2,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-              "issuerId": null,
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "loc": "child",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": null,
-                  "active": true,
-                  "explanation": "used as library export",
-                  "userRequest": null,
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 1605,
-              "sizes": {
-                "javascript": 1605
-              },
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-              "name": "./node_modules/css-loader/dist/runtime/api.js",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-              "index": 2,
-              "preOrderIndex": 2,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-              "issuerPath": [
-                {
-                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/css-loader/dist/runtime/api.js",
-              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "3:0-89",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "4:30-57",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-                  "module": "./node_modules/css-loader/dist/runtime/api.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "9:0-14",
-                  "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 9:0-14"
-              ],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 2266,
-              "sizes": {
-                "javascript": 2266
-              },
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "index": 1,
-              "preOrderIndex": 1,
-              "index2": 0,
-              "postOrderIndex": 0,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-              "issuerPath": [
-                {
-                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "loc": "2:0-118",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "loc": "4:58-95",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "15:0-14",
-                  "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 15:0-14"
-              ],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 302,
-              "sizes": {
-                "runtime": 302
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/compat get default export",
-              "name": "webpack/runtime/compat get default export",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 313,
-              "sizes": {
-                "runtime": 313
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/define property getters",
-              "name": "webpack/runtime/define property getters",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 103,
-              "sizes": {
-                "runtime": 103
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/hasOwnProperty shorthand",
-              "name": "webpack/runtime/hasOwnProperty shorthand",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 279,
-              "sizes": {
-                "runtime": 279
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/make namespace object",
-              "name": "webpack/runtime/make namespace object",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            }
-          ],
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "child",
-              "request": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css"
-            }
-          ]
-        }
-      ],
-      "entrypoints": {
-        "child": {
-          "name": "child",
-          "chunks": [
-            "child"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "namedChunkGroups": {
-        "child": {
-          "name": "child",
-          "chunks": [
-            "child"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "errors": [],
-      "errorsCount": 0,
-      "warnings": [],
-      "warningsCount": 0,
-      "children": []
-    },
-    {
-      "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-      "hash": "1826b675f06ee8838a6c",
-      "version": "5.25.0",
-      "builtAt": 1615619920640,
-      "publicPath": "/",
-      "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
-      "assetsByChunkName": {},
-      "assets": [],
-      "chunks": [
-        {
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "recorded": false,
-          "size": 33885,
-          "sizes": {
-            "javascript": 32888,
-            "runtime": 997
-          },
-          "names": [
-            "child"
-          ],
-          "idHints": [],
-          "runtime": [
-            "child"
-          ],
-          "files": [],
-          "auxiliaryFiles": [],
-          "hash": "7d15619792494987d0bb",
-          "childrenByOrder": {},
-          "id": "child",
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "modules": [
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 29017,
-              "sizes": {
-                "javascript": 29017
-              },
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-              "index": 0,
-              "preOrderIndex": 0,
-              "index2": 2,
-              "postOrderIndex": 2,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-              "issuerId": null,
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "loc": "child",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": null,
-                  "active": true,
-                  "explanation": "used as library export",
-                  "userRequest": null,
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 1605,
-              "sizes": {
-                "javascript": 1605
-              },
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-              "name": "./node_modules/css-loader/dist/runtime/api.js",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-              "index": 2,
-              "preOrderIndex": 2,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-              "issuerPath": [
-                {
-                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/css-loader/dist/runtime/api.js",
-              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "3:0-92",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "4:30-57",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-                  "module": "./node_modules/css-loader/dist/runtime/api.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "9:0-14",
-                  "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 9:0-14"
-              ],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 2266,
-              "sizes": {
-                "javascript": 2266
-              },
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "index": 1,
-              "preOrderIndex": 1,
-              "index2": 0,
-              "postOrderIndex": 0,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-              "issuerPath": [
-                {
-                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "loc": "2:0-121",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "loc": "4:58-95",
-                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "15:0-14",
-                  "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
-                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 15:0-14"
-              ],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 302,
-              "sizes": {
-                "runtime": 302
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/compat get default export",
-              "name": "webpack/runtime/compat get default export",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 313,
-              "sizes": {
-                "runtime": 313
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/define property getters",
-              "name": "webpack/runtime/define property getters",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 103,
-              "sizes": {
-                "runtime": 103
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/hasOwnProperty shorthand",
-              "name": "webpack/runtime/hasOwnProperty shorthand",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 279,
-              "sizes": {
-                "runtime": 279
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "identifier": "webpack/runtime/make namespace object",
-              "name": "webpack/runtime/make namespace object",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "child"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            }
-          ],
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "child",
-              "request": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css"
-            }
-          ]
-        }
-      ],
-      "entrypoints": {
-        "child": {
-          "name": "child",
-          "chunks": [
-            "child"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "namedChunkGroups": {
-        "child": {
-          "name": "child",
-          "chunks": [
-            "child"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "errors": [],
-      "errorsCount": 0,
-      "warnings": [],
-      "warningsCount": 0,
-      "children": []
-    }
-  ],
+  "children": [],
   "generator": "loadable-components"
 }

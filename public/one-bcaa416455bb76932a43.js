@@ -1,2 +1,0 @@
-(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[255],{3823:function(_,e,t){"use strict";t.r(e);var a=t(7294);e.default=function(_){var e=_.id;return a.createElement("div",{"data-fallback-id":e},"section one")}}}]);
-//# sourceMappingURL=one-bcaa416455bb76932a43.js.map
