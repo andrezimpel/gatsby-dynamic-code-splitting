@@ -53,7 +53,7 @@ exports.onCreateWebpackConfig = ({ actions, stage }) => {
 exports.onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({ name: '@loadable/babel-plugin' });
 };
-//
+
 // exports.onPostBuild = () => {
 //   // Clean after ourselves
 //   // unlinkSync(statsPath);

@@ -1,17 +1,17 @@
 {
-  "hash": "a9eed20850cfb4eb7c82",
+  "hash": "7e1443b988ce7294a788",
   "version": "5.25.0",
   "publicPath": "/",
   "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
   "assetsByChunkName": {
     "polyfill": [
       "polyfill.js",
-      "polyfill.3f916a97b4da40d3886f.hot-update.js"
+      "polyfill.676dd1d4d21f79cd7c80.hot-update.js"
     ],
     "commons": [
       "commons.css",
       "commons.js",
-      "commons.3f916a97b4da40d3886f.hot-update.js"
+      "commons.676dd1d4d21f79cd7c80.hot-update.js"
     ],
     "component---cache-dev-404-page-js": [
       "component---cache-dev-404-page-js.js"
@@ -23,7 +23,8 @@
       "component---src-pages-using-typescript-tsx.js"
     ],
     "component---src-templates-page-js": [
-      "component---src-templates-page-js.js"
+      "component---src-templates-page-js.js",
+      "component---src-templates-page-js.676dd1d4d21f79cd7c80.hot-update.js"
     ],
     "one": [
       "one.js"
@@ -116,7 +117,7 @@
     {
       "type": "asset",
       "name": "component---src-templates-page-js.js",
-      "size": 174543,
+      "size": 174544,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -293,6 +294,31 @@
     },
     {
       "type": "asset",
+      "name": "component---src-templates-page-js.676dd1d4d21f79cd7c80.hot-update.js",
+      "size": 8162,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "676dd1d4d21f79cd7c80"
+      },
+      "chunkNames": [
+        "component---src-templates-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---src-templates-page-js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "three.js",
       "size": 5994,
       "emitted": false,
@@ -383,7 +409,7 @@
     },
     {
       "type": "asset",
-      "name": "polyfill.3f916a97b4da40d3886f.hot-update.js",
+      "name": "polyfill.676dd1d4d21f79cd7c80.hot-update.js",
       "size": 900,
       "emitted": false,
       "comparedForEmit": false,
@@ -391,7 +417,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "3f916a97b4da40d3886f"
+        "fullhash": "676dd1d4d21f79cd7c80"
       },
       "chunkNames": [
         "polyfill"
@@ -408,7 +434,7 @@
     },
     {
       "type": "asset",
-      "name": "commons.3f916a97b4da40d3886f.hot-update.js",
+      "name": "commons.676dd1d4d21f79cd7c80.hot-update.js",
       "size": 899,
       "emitted": false,
       "comparedForEmit": false,
@@ -416,7 +442,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "3f916a97b4da40d3886f"
+        "fullhash": "676dd1d4d21f79cd7c80"
       },
       "chunkNames": [
         "commons"
@@ -435,15 +461,15 @@
     },
     {
       "type": "asset",
-      "name": "polyfill.3f916a97b4da40d3886f.hot-update.json",
-      "size": 32,
+      "name": "commons.676dd1d4d21f79cd7c80.hot-update.json",
+      "size": 67,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "3f916a97b4da40d3886f"
+        "fullhash": "676dd1d4d21f79cd7c80"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -456,15 +482,15 @@
     },
     {
       "type": "asset",
-      "name": "commons.3f916a97b4da40d3886f.hot-update.json",
-      "size": 31,
+      "name": "polyfill.676dd1d4d21f79cd7c80.hot-update.json",
+      "size": 32,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "3f916a97b4da40d3886f"
+        "fullhash": "676dd1d4d21f79cd7c80"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -531,10 +557,10 @@
       "files": [
         "commons.css",
         "commons.js",
-        "commons.3f916a97b4da40d3886f.hot-update.js"
+        "commons.676dd1d4d21f79cd7c80.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "44f9c52e5b2a1150bc97",
+      "hash": "048ef629e660caf1f218",
       "childrenByOrder": {},
       "id": "commons",
       "siblings": [
@@ -617,7 +643,7 @@
         "component---src-pages-404-js.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0a156a695712a2852ef5",
+      "hash": "005635602bd1539f0c5d",
       "childrenByOrder": {},
       "id": "component---src-pages-404-js",
       "siblings": [
@@ -652,7 +678,7 @@
         "component---src-pages-using-typescript-tsx.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "81f9072839654f4fd965",
+      "hash": "27d00905b0b17a49c21b",
       "childrenByOrder": {},
       "id": "component---src-pages-using-typescript-tsx",
       "siblings": [
@@ -668,13 +694,13 @@
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 72975,
+      "size": 72976,
       "sizes": {
-        "javascript": 72975
+        "javascript": 72976
       },
       "names": [
         "component---src-templates-page-js"
@@ -684,10 +710,11 @@
         "commons"
       ],
       "files": [
-        "component---src-templates-page-js.js"
+        "component---src-templates-page-js.js",
+        "component---src-templates-page-js.676dd1d4d21f79cd7c80.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "deabf22ca2f64e938a9b",
+      "hash": "f722f13bc01e88fd74da",
       "childrenByOrder": {},
       "id": "component---src-templates-page-js",
       "siblings": [
@@ -903,10 +930,10 @@
       ],
       "files": [
         "polyfill.js",
-        "polyfill.3f916a97b4da40d3886f.hot-update.js"
+        "polyfill.676dd1d4d21f79cd7c80.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0e8a12b7b76a8f454ed2",
+      "hash": "3985923f6c8d36a49ec3",
       "childrenByOrder": {},
       "id": "polyfill",
       "siblings": [],
@@ -993,7 +1020,7 @@
           "name": "polyfill.js"
         },
         {
-          "name": "polyfill.3f916a97b4da40d3886f.hot-update.js"
+          "name": "polyfill.676dd1d4d21f79cd7c80.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1022,7 +1049,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+          "name": "commons.676dd1d4d21f79cd7c80.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1046,7 +1073,7 @@
           "name": "polyfill.js"
         },
         {
-          "name": "polyfill.3f916a97b4da40d3886f.hot-update.js"
+          "name": "polyfill.676dd1d4d21f79cd7c80.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1075,7 +1102,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+          "name": "commons.676dd1d4d21f79cd7c80.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1124,7 +1151,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+          "name": "commons.676dd1d4d21f79cd7c80.hot-update.js"
         },
         {
           "name": "component---src-pages-404-js.js"
@@ -1157,7 +1184,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+          "name": "commons.676dd1d4d21f79cd7c80.hot-update.js"
         },
         {
           "name": "component---src-pages-using-typescript-tsx.js"
@@ -1190,10 +1217,13 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.3f916a97b4da40d3886f.hot-update.js"
+          "name": "commons.676dd1d4d21f79cd7c80.hot-update.js"
         },
         {
           "name": "component---src-templates-page-js.js"
+        },
+        {
+          "name": "component---src-templates-page-js.676dd1d4d21f79cd7c80.hot-update.js"
         }
       ],
       "filteredAssets": 0,

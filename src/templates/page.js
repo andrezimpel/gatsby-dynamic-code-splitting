@@ -8,7 +8,7 @@ import SectionRenderer from '../components/sections/_renderer'
 const Page = ({ pageContext: { title, sections }}) => (
   <Layout>
     <SEO title={title} />
-    <div>content:</div>
+    <div>contents:</div>
     <SectionRenderer sections={sections}/>
     <Navigation/>
   </Layout>
