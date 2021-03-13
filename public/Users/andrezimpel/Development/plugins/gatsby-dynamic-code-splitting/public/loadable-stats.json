@@ -1,5 +1,5 @@
 {
-  "hash": "b340044155031a59d06e",
+  "hash": "31f4742c2bb03bc91358",
   "version": "5.25.0",
   "publicPath": "/",
   "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
@@ -12,7 +12,7 @@
     {
       "type": "asset",
       "name": "render-page.js",
-      "size": 1122597,
+      "size": 1122444,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -33,7 +33,7 @@
         {
           "type": "sourceMap",
           "name": "render-page.js.map",
-          "size": 1235302,
+          "size": 1235497,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -67,9 +67,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 963345,
+      "size": 963231,
       "sizes": {
-        "javascript": 962285,
+        "javascript": 962171,
         "runtime": 1060
       },
       "names": [
@@ -85,7 +85,7 @@
       "auxiliaryFiles": [
         "render-page.js.map"
       ],
-      "hash": "a1537f48794e3265cfdc",
+      "hash": "8697034039295656e9fc",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
