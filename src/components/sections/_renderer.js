@@ -21,12 +21,13 @@ const SectionRenderer = ({ sections=[] }) => {
 }
 
 const getFallback = (id) => {
+
+  if (typeof window === 'undefined') return null
+  const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
+  console.log(element);
   return (
     <div>loading...{id}</div>
   )
-  // if (typeof window === 'undefined') return null
-  // const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
-  // console.log(element);
   // return element ? element : null
 }
 
