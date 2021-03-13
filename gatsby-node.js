@@ -1,7 +1,7 @@
 const path = require('path')
 const LoadablePlugin = require('@loadable/webpack-plugin')
 const { unlinkSync } = require('fs')
-const { statsFilename, statsPath } = require('./constants')
+const { statsPath } = require('./constants')
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions

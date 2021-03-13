@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[804],{8744:function(_,t,e){"use strict";e.r(t);var a=e(7294);t.default=function(_){var t=_.id;return a.createElement("div",{"data-fallback-id":t},"section two")}}}]);
+//# sourceMappingURL=two-5b4381fbb2b98235b306.js.map
