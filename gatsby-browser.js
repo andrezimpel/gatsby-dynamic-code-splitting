@@ -2,10 +2,16 @@ import { hydrate, render } from 'react-dom';
 
 import { loadableReady } from '@loadable/component';
 
-export const replaceHydrateFunction = () => (element, container, callback) => {
+export const replaceHydrateFunction = (_, options) => (element, container, callback) => {
   loadableReady(() => {
-    // Using ReactDOM.hydrate on develop will throw an error in console
-    const renderFn = process.env.GATSBY_BUILD_STAGE.includes('develop') ? render : hydrate;
+    const renderFn = typeof options.useHydrate === 'undefined'
+        // Using ReactDOM.hydrate on develop will throw an error in console
+        ? process.env.GATSBY_BUILD_STAGE.includes('develop')
+            ? render
+            : hydrate
+        : !!options.useHydrate
+            ? hydrate
+            : render;
 
     renderFn(element, container, callback);
   });
