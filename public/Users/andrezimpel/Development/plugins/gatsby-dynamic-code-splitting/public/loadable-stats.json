@@ -1,0 +1,164 @@
+{
+  "hash": "5d10e080481e19df2e07",
+  "version": "5.25.0",
+  "publicPath": "/",
+  "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
+  "assetsByChunkName": {
+    "main": [
+      "render-page.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "render-page.js",
+      "size": 609876,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "render-page.js.map",
+          "size": 601056,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 451457,
+      "sizes": {
+        "javascript": 450397,
+        "runtime": 1060
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "render-page.js"
+      ],
+      "auxiliaryFiles": [
+        "render-page.js.map"
+      ],
+      "hash": "bd1440d1f9ae07bee188",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [],
+      "origins": []
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "render-page.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "render-page.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/dist/utils/babel-loader.js??ruleSet[1].rules[2].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/develop-static-entry.js",
+      "moduleName": "./.cache/develop-static-entry.js",
+      "loc": "18:9-31",
+      "message": "Module not found: Error: Can't resolve '../src/html' in '/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache'",
+      "moduleId": "./.cache/develop-static-entry.js",
+      "moduleTrace": [],
+      "stack": "ModuleNotFoundError: Module not found: Error: Can't resolve '../src/html' in '/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache'\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/Compilation.js:1665:28\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:700:13\n    at eval (eval at create (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:271:22\n    at eval (eval at create (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:400:22\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:117:11\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:624:24\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:766:8\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:886:5\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/neo-async/async.js:6883:13\n    at Array.<anonymous> (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:861:14)\n    at arrayEachFunc (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/neo-async/async.js:2517:19)\n    at Object.parallel (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/neo-async/async.js:6858:9)\n    at NormalModuleFactory._resolveResourceErrorHints (/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:784:12)\n    at /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/webpack/lib/NormalModuleFactory.js:745:18"
+    }
+  ],
+  "warningsCount": 1,
+  "children": [],
+  "generator": "loadable-components"
+}

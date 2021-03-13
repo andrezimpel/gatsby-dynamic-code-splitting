@@ -4,10 +4,8 @@ import { ChunkExtractor } from '@loadable/server'
 import { statsPath } from './constants'
 
 const path = require('path')
-
-
 const statsFile = path.resolve(statsPath)
-const extractor = new ChunkExtractor({ statsFile })
+const extractor = new ChunkExtractor({ entrypoints: ['main'], statsFile });
 
 // extractor.collectChunks() will wrap the application in a ChunkExtractorManager
 export const wrapRootElement = ({ element }) => extractor.collectChunks(element);

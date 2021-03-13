@@ -45,18 +45,16 @@ exports.createPages = async ({ graphql, actions }) => {
 }
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
-  if (stage === "build-javascript") {
-     actions.setWebpackConfig({
-       plugins: [new LoadablePlugin({ filename: statsFilename, writeToDisk: true })]
-     });
-   }
+  actions.setWebpackConfig({
+    plugins: [new LoadablePlugin({ filename: statsPath, writeToDisk: true })]
+  });
 };
 
 exports.onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({ name: '@loadable/babel-plugin' });
 };
-
-exports.onPostBuild = () => {
-  // Clean after ourselves
-  // unlinkSync(statsPath);
-};
+//
+// exports.onPostBuild = () => {
+//   // Clean after ourselves
+//   // unlinkSync(statsPath);
+// };

@@ -1,399 +1,54 @@
 {
-  "hash": "590f1fee430bb810dcae",
+  "hash": "8685e2b33a2d0168e08c",
   "version": "5.25.0",
   "publicPath": "/",
-  "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
+  "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
   "assetsByChunkName": {
     "polyfill": [
-      "polyfill-b94e88c7412185faa2fa.js"
-    ],
-    "app": [
-      "app-0faaa28e23b629299316.js"
-    ],
-    "webpack-runtime": [
-      "webpack-runtime-260325e8cc4d8b00d038.js"
-    ],
-    "component---src-pages-404-js": [
-      "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
-    ],
-    "component---src-pages-using-typescript-tsx": [
-      "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
-    ],
-    "component---src-templates-page-js": [
-      "component---src-templates-page-js-f06aa3f60409cf2657f0.js"
-    ],
-    "one": [
-      "one-bcaa416455bb76932a43.js"
-    ],
-    "two": [
-      "two-5b4381fbb2b98235b306.js"
-    ],
-    "three": [
-      "three-dec6b3ad19f62b6f0a6b.js"
-    ],
-    "styles": [
-      "styles.ac46d673741bae581fd4.css"
-    ],
-    "framework": [
-      "framework-20672aedb31a67a4f0ae.js"
+      "polyfill.js"
     ],
     "commons": [
-      "commons-8029785b798c4c419245.js"
+      "commons.css",
+      "commons.js"
+    ],
+    "component---cache-dev-404-page-js": [
+      "component---cache-dev-404-page-js.js"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js.js"
+    ],
+    "component---src-pages-using-typescript-tsx": [
+      "component---src-pages-using-typescript-tsx.js"
+    ],
+    "component---src-templates-page-js": [
+      "component---src-templates-page-js.js"
+    ],
+    "one": [
+      "one.js"
+    ],
+    "two": [
+      "two.js"
+    ],
+    "three": [
+      "three.js"
+    ],
+    "framework": [
+      "framework.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "framework-20672aedb31a67a4f0ae.js",
-      "size": 128961,
+      "name": "commons.js",
+      "size": 2827906,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "20672aedb31a67a4f0ae",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "license": "framework-20672aedb31a67a4f0ae.js.LICENSE.txt",
-          "sourceMap": "framework-20672aedb31a67a4f0ae.js.map"
-        }
-      },
-      "chunkNames": [
-        "framework"
-      ],
-      "chunkIdHints": [
-        "framework"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "framework-20672aedb31a67a4f0ae.js.map",
-          "size": 319200,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "framework"
-          ],
-          "auxiliaryChunkIdHints": [
-            "framework"
-          ],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            774
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "license",
-          "name": "framework-20672aedb31a67a4f0ae.js.LICENSE.txt",
-          "size": 736,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "extractedComments": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        774
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "polyfill-b94e88c7412185faa2fa.js",
-      "size": 93218,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "b94e88c7412185faa2fa",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "polyfill-b94e88c7412185faa2fa.js.map"
-        }
-      },
-      "chunkNames": [
-        "polyfill"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "polyfill-b94e88c7412185faa2fa.js.map",
-          "size": 249374,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "polyfill"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            920
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        920
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "app-0faaa28e23b629299316.js",
-      "size": 64943,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "0faaa28e23b629299316",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "license": "app-0faaa28e23b629299316.js.LICENSE.txt",
-          "sourceMap": "app-0faaa28e23b629299316.js.map"
-        }
-      },
-      "chunkNames": [
-        "app"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "app-0faaa28e23b629299316.js.map",
-          "size": 294305,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "app"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            143
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "license",
-          "name": "app-0faaa28e23b629299316.js.LICENSE.txt",
-          "size": 94,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "extractedComments": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        143
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "commons-8029785b798c4c419245.js",
-      "size": 16790,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "8029785b798c4c419245",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "commons-8029785b798c4c419245.js.map"
-        }
+        "javascriptModule": false
       },
       "chunkNames": [
         "commons"
-      ],
-      "chunkIdHints": [
-        "commons"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "commons-8029785b798c4c419245.js.map",
-          "size": 69684,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "commons"
-          ],
-          "auxiliaryChunkIdHints": [
-            "commons"
-          ],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            351
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        351
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js",
-      "size": 10596,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "f06aa3f60409cf2657f0",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "license": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.LICENSE.txt",
-          "sourceMap": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map"
-        }
-      },
-      "chunkNames": [
-        "component---src-templates-page-js"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map",
-          "size": 39083,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "component---src-templates-page-js"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            565
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "license",
-          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.LICENSE.txt",
-          "size": 246,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "extractedComments": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        565
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "styles.ac46d673741bae581fd4.css",
-      "size": 5384,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "ac46d673741bae581fd4",
-        "minimized": true
-      },
-      "chunkNames": [
-        "styles"
       ],
       "chunkIdHints": [
         "styles"
@@ -402,130 +57,92 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        532
+        "commons"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "webpack-runtime-260325e8cc4d8b00d038.js",
-      "size": 5081,
+      "name": "framework.js",
+      "size": 2684128,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "260325e8cc4d8b00d038",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "webpack-runtime-260325e8cc4d8b00d038.js.map"
-        }
+        "javascriptModule": false
       },
       "chunkNames": [
-        "webpack-runtime"
+        "framework"
       ],
-      "chunkIdHints": [],
+      "chunkIdHints": [
+        "framework",
+        "styles"
+      ],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map",
-          "size": 22737,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "webpack-runtime"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            658
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        658
+        "framework"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "231-0a649ab5edcbda1ea140.js",
-      "size": 3135,
+      "name": "polyfill.js",
+      "size": 1152368,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "0a649ab5edcbda1ea140",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "231-0a649ab5edcbda1ea140.js.map"
-        }
+        "javascriptModule": false
       },
-      "chunkNames": [],
+      "chunkNames": [
+        "polyfill"
+      ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "231-0a649ab5edcbda1ea140.js.map",
-          "size": 8449,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            231
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        231
+        "polyfill"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js",
-      "size": 1317,
+      "name": "component---src-templates-page-js.js",
+      "size": 232697,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "3533779c4933c8a67b2b",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map"
-        }
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "component---src-templates-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---src-templates-page-js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "component---src-pages-using-typescript-tsx.js",
+      "size": 159964,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
       },
       "chunkNames": [
         "component---src-pages-using-typescript-tsx"
@@ -533,153 +150,22 @@
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map",
-          "size": 2049,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "component---src-pages-using-typescript-tsx"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            970
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        970
+        "component---src-pages-using-typescript-tsx"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "456-142cfb14568c2a8d8ea5.js",
-      "size": 1283,
+      "name": "component---src-pages-404-js.js",
+      "size": 154895,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "142cfb14568c2a8d8ea5",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "456-142cfb14568c2a8d8ea5.js.map"
-        }
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "456-142cfb14568c2a8d8ea5.js.map",
-          "size": 4430,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            456
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        456
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "175-2b91e102e28547caf3ba.js",
-      "size": 811,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "2b91e102e28547caf3ba",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "175-2b91e102e28547caf3ba.js.map"
-        }
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "175-2b91e102e28547caf3ba.js.map",
-          "size": 3302,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            175
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        175
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js",
-      "size": 469,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "1d2c1e275d588f4cc889",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map"
-        }
+        "javascriptModule": false
       },
       "chunkNames": [
         "component---src-pages-404-js"
@@ -687,53 +173,131 @@
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map",
-          "size": 629,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "component---src-pages-404-js"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            883
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        883
+        "component---src-pages-404-js"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "three-dec6b3ad19f62b6f0a6b.js",
-      "size": 300,
+      "name": "component---cache-dev-404-page-js.js",
+      "size": 66823,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "dec6b3ad19f62b6f0a6b",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "three-dec6b3ad19f62b6f0a6b.js.map"
-        }
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "component---cache-dev-404-page-js"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "component---cache-dev-404-page-js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js.js",
+      "size": 12907,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.css",
+      "size": 10913,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [
+        "commons"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "commons"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js.js",
+      "size": 9270,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js.js",
+      "size": 9031,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "three.js",
+      "size": 5994,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
       },
       "chunkNames": [
         "three"
@@ -741,107 +305,22 @@
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "three-dec6b3ad19f62b6f0a6b.js.map",
-          "size": 481,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "three"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            841
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        841
+        "three"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "one-bcaa416455bb76932a43.js",
-      "size": 296,
+      "name": "two.js",
+      "size": 5958,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "immutable": true,
-        "contenthash": "bcaa416455bb76932a43",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "one-bcaa416455bb76932a43.js.map"
-        }
-      },
-      "chunkNames": [
-        "one"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "one-bcaa416455bb76932a43.js.map",
-          "size": 471,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "one"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            255
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        255
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "two-5b4381fbb2b98235b306.js",
-      "size": 296,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "immutable": true,
-        "contenthash": "5b4381fbb2b98235b306",
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "two-5b4381fbb2b98235b306.js.map"
-        }
+        "javascriptModule": false
       },
       "chunkNames": [
         "two"
@@ -849,34 +328,53 @@
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "two-5b4381fbb2b98235b306.js.map",
-          "size": 473,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "development": true
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "two"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            804
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
-        804
+        "two"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "one.js",
+      "size": 5952,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "one"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "one"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "_cache_dummy_js.js",
+      "size": 5008,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "_cache_dummy_js"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -885,312 +383,31 @@
   "chunks": [
     {
       "rendered": true,
-      "initial": true,
-      "entry": false,
-      "recorded": false,
-      "size": 173782,
-      "sizes": {
-        "javascript": 173782
-      },
-      "names": [
-        "app"
-      ],
-      "idHints": [],
-      "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "app-0faaa28e23b629299316.js"
-      ],
-      "auxiliaryFiles": [
-        "app-0faaa28e23b629299316.js.map"
-      ],
-      "hash": "2d96be6a1dc22999e6e6",
-      "childrenByOrder": {},
-      "id": 143,
-      "siblings": [
-        658,
-        774
-      ],
-      "parents": [],
-      "children": [
-        175,
-        231,
-        351,
-        456,
-        532,
-        565,
-        883,
-        970
-      ],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 616,
+      "size": 2708,
       "sizes": {
-        "javascript": 616
+        "javascript": 2708
       },
       "names": [],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "175-2b91e102e28547caf3ba.js"
-      ],
-      "auxiliaryFiles": [
-        "175-2b91e102e28547caf3ba.js.map"
-      ],
-      "hash": "94f9eafd5d25feb35720",
-      "childrenByOrder": {},
-      "id": 175,
-      "siblings": [],
-      "parents": [
-        143,
-        658,
-        774
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 4271,
-      "sizes": {
-        "javascript": 4271
-      },
-      "names": [],
-      "idHints": [],
-      "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "231-0a649ab5edcbda1ea140.js"
-      ],
-      "auxiliaryFiles": [
-        "231-0a649ab5edcbda1ea140.js.map"
-      ],
-      "hash": "ba9c52b9eb107e5bf1c5",
-      "childrenByOrder": {},
-      "id": 231,
-      "siblings": [],
-      "parents": [
-        143,
-        658,
-        774
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 222,
-      "sizes": {
-        "javascript": 222
-      },
-      "names": [
-        "one"
-      ],
-      "idHints": [],
-      "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "one-bcaa416455bb76932a43.js"
-      ],
-      "auxiliaryFiles": [
-        "one-bcaa416455bb76932a43.js.map"
-      ],
-      "hash": "f6e68726abdc16fa0bdf",
-      "childrenByOrder": {},
-      "id": 255,
-      "siblings": [],
-      "parents": [
-        351,
-        532,
-        565
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "reason": "split chunk (cache group: commons) (name: commons)",
-      "size": 43256,
-      "sizes": {
-        "javascript": 43256
-      },
-      "names": [
         "commons"
       ],
-      "idHints": [
-        "commons"
-      ],
-      "runtime": [
-        "webpack-runtime"
-      ],
       "files": [
-        "commons-8029785b798c4c419245.js"
-      ],
-      "auxiliaryFiles": [
-        "commons-8029785b798c4c419245.js.map"
-      ],
-      "hash": "55c72f149828b324f753",
-      "childrenByOrder": {},
-      "id": 351,
-      "siblings": [
-        532,
-        565,
-        883,
-        970
-      ],
-      "parents": [
-        143,
-        658,
-        774
-      ],
-      "children": [
-        255,
-        804,
-        841
-      ],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 1259,
-      "sizes": {
-        "javascript": 1259
-      },
-      "names": [],
-      "idHints": [],
-      "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "456-142cfb14568c2a8d8ea5.js"
-      ],
-      "auxiliaryFiles": [
-        "456-142cfb14568c2a8d8ea5.js.map"
-      ],
-      "hash": "2066c3f96fb5724845c5",
-      "childrenByOrder": {},
-      "id": 456,
-      "siblings": [],
-      "parents": [
-        143,
-        658,
-        774
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "reason": "split chunk (cache group: styles) (name: styles)",
-      "size": 10911,
-      "sizes": {
-        "css/mini-extract": 10911
-      },
-      "names": [
-        "styles"
-      ],
-      "idHints": [
-        "styles"
-      ],
-      "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "styles.ac46d673741bae581fd4.css"
+        "_cache_dummy_js.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "b167f4d08f689b2069fc",
+      "hash": "5d33f26cbd27a9dd24d0",
       "childrenByOrder": {},
-      "id": 532,
-      "siblings": [
-        351,
-        565,
-        883,
-        970
-      ],
+      "id": "_cache_dummy_js",
+      "siblings": [],
       "parents": [
-        143,
-        658,
-        774
+        "commons",
+        "framework"
       ],
-      "children": [
-        255,
-        804,
-        841
-      ],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 27567,
-      "sizes": {
-        "javascript": 27567
-      },
-      "names": [
-        "component---src-templates-page-js"
-      ],
-      "idHints": [],
-      "runtime": [
-        "webpack-runtime"
-      ],
-      "files": [
-        "component---src-templates-page-js-f06aa3f60409cf2657f0.js"
-      ],
-      "auxiliaryFiles": [
-        "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map"
-      ],
-      "hash": "3421c5661c77f851bfcd",
-      "childrenByOrder": {},
-      "id": 565,
-      "siblings": [
-        351,
-        532
-      ],
-      "parents": [
-        143,
-        658,
-        774
-      ],
-      "children": [
-        255,
-        804,
-        841
-      ],
+      "children": [],
       "modules": [],
       "origins": []
     },
@@ -1199,41 +416,195 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 11713,
+      "reason": "split chunk (cache group: styles) (name: commons)",
+      "size": 1029795,
       "sizes": {
-        "runtime": 11713
+        "javascript": 982038,
+        "css/mini-extract": 10911,
+        "runtime": 36846
       },
       "names": [
-        "webpack-runtime"
+        "commons"
+      ],
+      "idHints": [
+        "styles"
+      ],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "commons.css",
+        "commons.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "093322d94122c1bdbb55",
+      "childrenByOrder": {},
+      "id": "commons",
+      "siblings": [
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [
+        "_cache_dummy_js",
+        "commons",
+        "component---cache-dev-404-page-js",
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js",
+        "framework",
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js",
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+        "one",
+        "three",
+        "two"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 24149,
+      "sizes": {
+        "javascript": 24149
+      },
+      "names": [
+        "component---cache-dev-404-page-js"
       ],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
+        "commons"
       ],
       "files": [
-        "webpack-runtime-260325e8cc4d8b00d038.js"
+        "component---cache-dev-404-page-js.js"
       ],
-      "auxiliaryFiles": [
-        "webpack-runtime-260325e8cc4d8b00d038.js.map"
-      ],
-      "hash": "92c94d0a62b941085507",
+      "auxiliaryFiles": [],
+      "hash": "02e04fb90323327e23a4",
       "childrenByOrder": {},
-      "id": 658,
-      "siblings": [
-        143,
-        774,
-        920
+      "id": "component---cache-dev-404-page-js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
       ],
-      "parents": [],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 61327,
+      "sizes": {
+        "javascript": 61327
+      },
+      "names": [
+        "component---src-pages-404-js"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "component---src-pages-404-js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9d89fafb24a50cb70132",
+      "childrenByOrder": {},
+      "id": "component---src-pages-404-js",
+      "siblings": [
+        "commons",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 63734,
+      "sizes": {
+        "javascript": 63734
+      },
+      "names": [
+        "component---src-pages-using-typescript-tsx"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "component---src-pages-using-typescript-tsx.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9a8c98d203e427d25636",
+      "childrenByOrder": {},
+      "id": "component---src-pages-using-typescript-tsx",
+      "siblings": [
+        "commons",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 92283,
+      "sizes": {
+        "javascript": 92283
+      },
+      "names": [
+        "component---src-templates-page-js"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "component---src-templates-page-js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "8c4dc5e49e769dd493aa",
+      "childrenByOrder": {},
+      "id": "component---src-templates-page-js",
+      "siblings": [
+        "commons",
+        "framework"
+      ],
+      "parents": [
+        "commons",
+        "framework"
+      ],
       "children": [
-        175,
-        231,
-        351,
-        456,
-        532,
-        565,
-        883,
-        970
+        "one",
+        "three",
+        "two"
       ],
       "modules": [],
       "origins": []
@@ -1244,76 +615,80 @@
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: framework) (name: framework)",
-      "size": 136364,
+      "size": 1027197,
       "sizes": {
-        "javascript": 136364
+        "javascript": 1027197
       },
       "names": [
         "framework"
       ],
       "idHints": [
+        "styles",
         "framework"
       ],
       "runtime": [
-        "webpack-runtime"
+        "commons"
       ],
       "files": [
-        "framework-20672aedb31a67a4f0ae.js"
+        "framework.js"
       ],
-      "auxiliaryFiles": [
-        "framework-20672aedb31a67a4f0ae.js.map"
-      ],
-      "hash": "5548a47c3b8be18fafff",
+      "auxiliaryFiles": [],
+      "hash": "d9707d35ed13f7c14033",
       "childrenByOrder": {},
-      "id": 774,
+      "id": "framework",
       "siblings": [
-        143,
-        658
+        "commons",
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js"
       ],
-      "parents": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
       "children": [
-        175,
-        231,
-        351,
-        456,
-        532,
-        565,
-        883,
-        970
-      ],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 224,
-      "sizes": {
-        "javascript": 224
-      },
-      "names": [
+        "_cache_dummy_js",
+        "commons",
+        "component---cache-dev-404-page-js",
+        "component---src-pages-404-js",
+        "component---src-pages-using-typescript-tsx",
+        "component---src-templates-page-js",
+        "framework",
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js",
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+        "one",
+        "three",
         "two"
       ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3405,
+      "sizes": {
+        "javascript": 3405
+      },
+      "names": [],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
+        "commons"
       ],
       "files": [
-        "two-5b4381fbb2b98235b306.js"
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js.js"
       ],
-      "auxiliaryFiles": [
-        "two-5b4381fbb2b98235b306.js.map"
-      ],
-      "hash": "dff815531caee852f1f2",
+      "auxiliaryFiles": [],
+      "hash": "f18b228454e7f38da8b1",
       "childrenByOrder": {},
-      "id": 804,
+      "id": "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
       "siblings": [],
       "parents": [
-        351,
-        532,
-        565
+        "commons",
+        "framework"
       ],
       "children": [],
       "modules": [],
@@ -1324,31 +699,26 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 230,
+      "size": 4314,
       "sizes": {
-        "javascript": 230
+        "javascript": 4314
       },
-      "names": [
-        "three"
-      ],
+      "names": [],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
+        "commons"
       ],
       "files": [
-        "three-dec6b3ad19f62b6f0a6b.js"
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js.js"
       ],
-      "auxiliaryFiles": [
-        "three-dec6b3ad19f62b6f0a6b.js.map"
-      ],
-      "hash": "bec8d031cdd3a22608b2",
+      "auxiliaryFiles": [],
+      "hash": "ba3ee0964252a0ec1314",
       "childrenByOrder": {},
-      "id": 841,
+      "id": "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js",
       "siblings": [],
       "parents": [
-        351,
-        532,
-        565
+        "commons",
+        "framework"
       ],
       "children": [],
       "modules": [],
@@ -1359,34 +729,59 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 452,
+      "size": 2981,
       "sizes": {
-        "javascript": 452
+        "javascript": 2981
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a57dbba1145f50071a56",
+      "childrenByOrder": {},
+      "id": "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3201,
+      "sizes": {
+        "javascript": 3201
       },
       "names": [
-        "component---src-pages-404-js"
+        "one"
       ],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
+        "commons"
       ],
       "files": [
-        "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
+        "one.js"
       ],
-      "auxiliaryFiles": [
-        "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map"
-      ],
-      "hash": "e1f354872ec3f6a000f7",
+      "auxiliaryFiles": [],
+      "hash": "d39715a41170725913d8",
       "childrenByOrder": {},
-      "id": 883,
-      "siblings": [
-        351,
-        532
-      ],
+      "id": "one",
+      "siblings": [],
       "parents": [
-        143,
-        658,
-        774
+        "commons",
+        "component---src-templates-page-js",
+        "framework"
       ],
       "children": [],
       "modules": [],
@@ -1395,31 +790,28 @@
     {
       "rendered": true,
       "initial": true,
-      "entry": false,
+      "entry": true,
       "recorded": false,
-      "size": 113825,
+      "size": 427215,
       "sizes": {
-        "javascript": 113825
+        "javascript": 395813,
+        "runtime": 31402
       },
       "names": [
         "polyfill"
       ],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
+        "polyfill"
       ],
       "files": [
-        "polyfill-b94e88c7412185faa2fa.js"
+        "polyfill.js"
       ],
-      "auxiliaryFiles": [
-        "polyfill-b94e88c7412185faa2fa.js.map"
-      ],
-      "hash": "58212ae59b1a96e1d438",
+      "auxiliaryFiles": [],
+      "hash": "5af89db0f91e50661abb",
       "childrenByOrder": {},
-      "id": 920,
-      "siblings": [
-        658
-      ],
+      "id": "polyfill",
+      "siblings": [],
       "parents": [],
       "children": [],
       "modules": [],
@@ -1430,34 +822,62 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 1708,
+      "size": 3215,
       "sizes": {
-        "javascript": 1708
+        "javascript": 3215
       },
       "names": [
-        "component---src-pages-using-typescript-tsx"
+        "three"
       ],
       "idHints": [],
       "runtime": [
-        "webpack-runtime"
+        "commons"
       ],
       "files": [
-        "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
+        "three.js"
       ],
-      "auxiliaryFiles": [
-        "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map"
-      ],
-      "hash": "8baf6787756a0930aa4b",
+      "auxiliaryFiles": [],
+      "hash": "f497e2bf0b8c399f720c",
       "childrenByOrder": {},
-      "id": 970,
-      "siblings": [
-        351,
-        532
-      ],
+      "id": "three",
+      "siblings": [],
       "parents": [
-        143,
-        658,
-        774
+        "commons",
+        "component---src-templates-page-js",
+        "framework"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3203,
+      "sizes": {
+        "javascript": 3203
+      },
+      "names": [
+        "two"
+      ],
+      "idHints": [],
+      "runtime": [
+        "commons"
+      ],
+      "files": [
+        "two.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "731e123ce54908f5fff9",
+      "childrenByOrder": {},
+      "id": "two",
+      "siblings": [],
+      "parents": [
+        "commons",
+        "component---src-templates-page-js",
+        "framework"
       ],
       "children": [],
       "modules": [],
@@ -1468,66 +888,44 @@
     "polyfill": {
       "name": "polyfill",
       "chunks": [
-        658,
-        920
+        "polyfill"
       ],
       "assets": [
         {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
-        },
-        {
-          "name": "polyfill-b94e88c7412185faa2fa.js"
+          "name": "polyfill.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "polyfill-b94e88c7412185faa2fa.js.map"
-        },
-        {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
     },
-    "app": {
-      "name": "app",
+    "commons": {
+      "name": "commons",
       "chunks": [
-        658,
-        774,
-        143
+        "framework",
+        "commons"
       ],
       "assets": [
         {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
+          "name": "framework.js"
         },
         {
-          "name": "framework-20672aedb31a67a4f0ae.js"
+          "name": "commons.css"
         },
         {
-          "name": "app-0faaa28e23b629299316.js"
+          "name": "commons.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "app-0faaa28e23b629299316.js.map"
-        },
-        {
-          "name": "framework-20672aedb31a67a4f0ae.js.map"
-        },
-        {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1537,66 +935,63 @@
     "polyfill": {
       "name": "polyfill",
       "chunks": [
-        658,
-        920
+        "polyfill"
       ],
       "assets": [
         {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
-        },
-        {
-          "name": "polyfill-b94e88c7412185faa2fa.js"
+          "name": "polyfill.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "polyfill-b94e88c7412185faa2fa.js.map"
-        },
-        {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
     },
-    "app": {
-      "name": "app",
+    "commons": {
+      "name": "commons",
       "chunks": [
-        658,
-        774,
-        143
+        "framework",
+        "commons"
       ],
       "assets": [
         {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js"
+          "name": "framework.js"
         },
         {
-          "name": "framework-20672aedb31a67a4f0ae.js"
+          "name": "commons.css"
         },
         {
-          "name": "app-0faaa28e23b629299316.js"
+          "name": "commons.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "component---cache-dev-404-page-js": {
+      "name": "component---cache-dev-404-page-js",
+      "chunks": [
+        "component---cache-dev-404-page-js"
+      ],
+      "assets": [
         {
-          "name": "app-0faaa28e23b629299316.js.map"
-        },
-        {
-          "name": "framework-20672aedb31a67a4f0ae.js.map"
-        },
-        {
-          "name": "webpack-runtime-260325e8cc4d8b00d038.js.map"
+          "name": "component---cache-dev-404-page-js.js"
         }
       ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1604,33 +999,29 @@
     "component---src-pages-404-js": {
       "name": "component---src-pages-404-js",
       "chunks": [
-        532,
-        351,
-        883
+        "framework",
+        "commons",
+        "component---src-pages-404-js"
       ],
       "assets": [
         {
-          "name": "styles.ac46d673741bae581fd4.css"
+          "name": "framework.js"
         },
         {
-          "name": "commons-8029785b798c4c419245.js"
+          "name": "commons.css"
         },
         {
-          "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js"
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-404-js.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "commons-8029785b798c4c419245.js.map"
-        },
-        {
-          "name": "component---src-pages-404-js-1d2c1e275d588f4cc889.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1638,33 +1029,29 @@
     "component---src-pages-using-typescript-tsx": {
       "name": "component---src-pages-using-typescript-tsx",
       "chunks": [
-        532,
-        351,
-        970
+        "framework",
+        "commons",
+        "component---src-pages-using-typescript-tsx"
       ],
       "assets": [
         {
-          "name": "styles.ac46d673741bae581fd4.css"
+          "name": "framework.js"
         },
         {
-          "name": "commons-8029785b798c4c419245.js"
+          "name": "commons.css"
         },
         {
-          "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js"
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-using-typescript-tsx.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "commons-8029785b798c4c419245.js.map"
-        },
-        {
-          "name": "component---src-pages-using-typescript-tsx-3533779c4933c8a67b2b.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1672,33 +1059,29 @@
     "component---src-templates-page-js": {
       "name": "component---src-templates-page-js",
       "chunks": [
-        532,
-        351,
-        565
+        "framework",
+        "commons",
+        "component---src-templates-page-js"
       ],
       "assets": [
         {
-          "name": "styles.ac46d673741bae581fd4.css"
+          "name": "framework.js"
         },
         {
-          "name": "commons-8029785b798c4c419245.js"
+          "name": "commons.css"
         },
         {
-          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js"
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-templates-page-js.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "commons-8029785b798c4c419245.js.map"
-        },
-        {
-          "name": "component---src-templates-page-js-f06aa3f60409cf2657f0.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1706,22 +1089,18 @@
     "one": {
       "name": "one",
       "chunks": [
-        255
+        "one"
       ],
       "assets": [
         {
-          "name": "one-bcaa416455bb76932a43.js"
+          "name": "one.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "one-bcaa416455bb76932a43.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1729,22 +1108,18 @@
     "two": {
       "name": "two",
       "chunks": [
-        804
+        "two"
       ],
       "assets": [
         {
-          "name": "two-5b4381fbb2b98235b306.js"
+          "name": "two.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "two-5b4381fbb2b98235b306.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1752,22 +1127,18 @@
     "three": {
       "name": "three",
       "chunks": [
-        841
+        "three"
       ],
       "assets": [
         {
-          "name": "three-dec6b3ad19f62b6f0a6b.js"
+          "name": "three.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "auxiliaryAssets": [
-        {
-          "name": "three-dec6b3ad19f62b6f0a6b.js.map"
-        }
-      ],
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": null,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -1779,12 +1150,12 @@
   "warningsCount": 0,
   "children": [
     {
-      "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-      "hash": "05be67e25fb8464ad65b",
+      "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+      "hash": "0b194a546b5fdf84246c",
       "version": "5.25.0",
-      "builtAt": 1615576138259,
+      "builtAt": 1615619919865,
       "publicPath": "/",
-      "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/public",
+      "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
       "assetsByChunkName": {},
       "assets": [],
       "chunks": [
@@ -1793,9 +1164,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 14478,
+          "size": 5366,
           "sizes": {
-            "javascript": 13481,
+            "javascript": 4369,
             "runtime": 997
           },
           "names": [
@@ -1807,9 +1178,9 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "56817a5846db7910fe41",
+          "hash": "2592e66a204d2c1ac883",
           "childrenByOrder": {},
-          "id": 396,
+          "id": "child",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -1818,20 +1189,20 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 11876,
+              "size": 498,
               "sizes": {
-                "javascript": 11876
+                "javascript": 498
               },
               "built": true,
               "codeGenerated": true,
               "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
               "index": 0,
               "preOrderIndex": 0,
-              "index2": 1,
-              "postOrderIndex": 1,
+              "index2": 2,
+              "postOrderIndex": 2,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -1842,10 +1213,10 @@
               "failed": false,
               "errors": 0,
               "warnings": 0,
-              "id": 777,
+              "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
               "issuerId": null,
               "chunks": [
-                396
+                "child"
               ],
               "assets": [],
               "reasons": [
@@ -1858,7 +1229,7 @@
                   "type": "entry",
                   "active": true,
                   "explanation": "",
-                  "userRequest": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "userRequest": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
                   "loc": "child",
                   "moduleId": null,
                   "resolvedModuleId": null
@@ -1877,14 +1248,11 @@
                   "resolvedModuleId": null
                 }
               ],
-              "usedExports": true,
+              "usedExports": null,
               "providedExports": [
                 "default"
               ],
-              "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
-                "ModuleConcatenation bailout: Module uses module.id"
-              ],
+              "optimizationBailout": [],
               "depth": 0
             },
             {
@@ -1898,9 +1266,100 @@
               "built": true,
               "codeGenerated": true,
               "cached": false,
-              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
               "name": "./node_modules/css-loader/dist/runtime/api.js",
               "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-89",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "4:30-57",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 2266,
+              "sizes": {
+                "javascript": 2266
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
               "index": 1,
               "preOrderIndex": 1,
               "index2": 0,
@@ -1909,74 +1368,72 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
+              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
               "issuerPath": [
                 {
-                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "id": 777
+                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
-              "id": 84,
-              "issuerId": 777,
+              "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
               "chunks": [
-                396
+                "child"
               ],
               "assets": [],
               "reasons": [
                 {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-                  "module": "./node_modules/css-loader/dist/runtime/api.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[9].use[0]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "2:0-118",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "4:58-95",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./.cache/blank.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
                   "type": "cjs self exports reference",
                   "active": true,
                   "explanation": "",
                   "userRequest": null,
-                  "loc": "9:0-14",
-                  "moduleId": 84,
-                  "resolvedModuleId": 84
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "2:0-92",
-                  "moduleId": 777,
-                  "resolvedModuleId": 777
-                },
-                {
-                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!./src/components/layout.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "3:30-57",
-                  "moduleId": 777,
-                  "resolvedModuleId": 777
+                  "loc": "15:0-14",
+                  "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
                 }
               ],
               "usedExports": null,
               "providedExports": null,
               "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 9:0-14",
-                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
-                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                "CommonJS bailout: module.exports is used directly at 15:0-14"
               ],
               "depth": 1
             },
@@ -2006,7 +1463,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                396
+                "child"
               ],
               "assets": [],
               "reasons": [],
@@ -2041,7 +1498,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                396
+                "child"
               ],
               "assets": [],
               "reasons": [],
@@ -2076,7 +1533,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                396
+                "child"
               ],
               "assets": [],
               "reasons": [],
@@ -2111,7 +1568,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                396
+                "child"
               ],
               "assets": [],
               "reasons": [],
@@ -2127,7 +1584,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "child",
-              "request": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[10].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css"
+              "request": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/.cache/blank.css"
             }
           ]
         }
@@ -2136,7 +1593,7 @@
         "child": {
           "name": "child",
           "chunks": [
-            396
+            "child"
           ],
           "assets": [],
           "filteredAssets": 0,
@@ -2153,7 +1610,487 @@
         "child": {
           "name": "child",
           "chunks": [
-            396
+            "child"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin /Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+      "hash": "1826b675f06ee8838a6c",
+      "version": "5.25.0",
+      "builtAt": 1615619920640,
+      "publicPath": "/",
+      "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 33885,
+          "sizes": {
+            "javascript": 32888,
+            "runtime": 997
+          },
+          "names": [
+            "child"
+          ],
+          "idHints": [],
+          "runtime": [
+            "child"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "7d15619792494987d0bb",
+          "childrenByOrder": {},
+          "id": "child",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 29017,
+              "sizes": {
+                "javascript": 29017
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+              "issuerId": null,
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "loc": "child",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-92",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "4:30-57",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 2266,
+              "sizes": {
+                "javascript": 2266
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "nameForCondition": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "id": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "2:0-121",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "4:58-95",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!./node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!./src/components/layout.css"
+                },
+                {
+                  "moduleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleIdentifier": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "15:0-14",
+                  "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 15:0-14"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "child",
+              "request": "!!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[1]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/node_modules/gatsby/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[9].oneOf[1].use[2]!/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting/src/components/layout.css"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            "child"
           ],
           "assets": [],
           "filteredAssets": 0,
