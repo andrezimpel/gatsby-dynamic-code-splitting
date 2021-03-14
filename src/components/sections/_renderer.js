@@ -24,7 +24,7 @@ const getFallback = (id) => {
   if (typeof window === 'undefined') return null
   const element = window.document.getElementById(id)
   console.log('element', id, element);
-  return element ? element.outerHTML : null
+  return element ? <section key={id} dangerouslySetInnerHTML={{ __html: element.innerHTML }}/> : null
 }
 
 export default SectionRenderer
