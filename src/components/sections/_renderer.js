@@ -23,7 +23,7 @@ const SectionRenderer = ({ sections=[] }) => {
 const getFallback = (id) => {
 
   if (typeof window === 'undefined') return null
-  const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
+  const element = window.document.getElementById(id)
   // console.log(element?.outerHTML);
   // return (
   //   <div>loading</div>
