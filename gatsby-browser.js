@@ -1,10 +1,10 @@
-const ReactDOM = require('react-dom')
-const loadableReady = require('@loadable/component').loadableReady;
-
-exports.replaceHydrateFunction = () => {
-  return (element, container, callback) => {
-    loadableReady(() => {
-        ReactDOM.render(element, container, callback);
-    });
-  };
-};
+// const ReactDOM = require('react-dom')
+// const loadableReady = require('@loadable/component').loadableReady;
+//
+// exports.replaceHydrateFunction = () => {
+//   return (element, container, callback) => {
+//     loadableReady(() => {
+//         ReactDOM.render(element, container, callback);
+//     });
+//   };
+// };

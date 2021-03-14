@@ -21,7 +21,6 @@ const SectionRenderer = ({ sections=[] }) => {
 }
 
 const getFallback = (id) => {
-
   if (typeof window === 'undefined') return null
   const element = window.document.getElementById(id)
   console.log('element', id, element);
