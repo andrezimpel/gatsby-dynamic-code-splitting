@@ -24,11 +24,11 @@ const getFallback = (id) => {
 
   if (typeof window === 'undefined') return null
   const element = window.document.querySelector(`[data-fallback-id="${id}"]`)
-  console.log(element?.outerHTML);
-  return (
-    <div>loading</div>
-  )
-  // return element ? element.outerHTML : null
+  // console.log(element?.outerHTML);
+  // return (
+  //   <div>loading</div>
+  // )
+  return element ? element.outerHTML : null
 }
 
 export default SectionRenderer

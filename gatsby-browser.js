@@ -16,3 +16,11 @@ export const replaceHydrateFunction = (_, options) => (element, container, callb
     renderFn(element, container, callback);
   });
 };
+
+
+// import { loadableReady } from '@loadable/component'
+//
+// loadableReady(() => {
+//   const root = document.getElementById('main')
+//   hydrate(<App />, root)
+// })
