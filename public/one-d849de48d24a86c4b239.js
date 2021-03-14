@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[255],{4870:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var _=t(7294);var r=function(e){var n=e.id;return _.createElement("section",{id:n},_.createElement("div",{className:"one-module--one--7ha5t"},"section one :)"))}}}]);
+//# sourceMappingURL=one-d849de48d24a86c4b239.js.map

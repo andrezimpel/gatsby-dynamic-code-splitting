@@ -1,3 +1,5 @@
+/* webpackChunkName: "One" */
+
 import React from 'react'
 import { one } from './one.module.scss'
 
