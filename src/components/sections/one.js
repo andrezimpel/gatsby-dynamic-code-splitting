@@ -3,7 +3,11 @@
 import React from 'react'
 
 const SectionOne = ({ id }) => {
-  return <div id={id} style={{ backgroundColor: 'lime', height: '20vh' }}>section one :)</div>
+  return (
+    <section id={id}>
+      <div style={{ backgroundColor: 'lime', height: '20vh' }}>section one :)</div>
+    </section>
+  )
 }
 
 export default SectionOne
