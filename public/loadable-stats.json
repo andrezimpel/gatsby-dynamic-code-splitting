@@ -1,17 +1,17 @@
 {
-  "hash": "554f0269012a7fe101e0",
+  "hash": "007791120bc3683403aa",
   "version": "5.25.0",
   "publicPath": "/",
   "outputPath": "/Users/andrezimpel/Development/plugins/gatsby-dynamic-code-splitting",
   "assetsByChunkName": {
     "polyfill": [
       "polyfill.js",
-      "polyfill.2619b7704ae8e664c6d0.hot-update.js"
+      "polyfill.ad584bd870d608bed0cc.hot-update.js"
     ],
     "commons": [
       "commons.css",
       "commons.js",
-      "commons.2619b7704ae8e664c6d0.hot-update.js"
+      "commons.ad584bd870d608bed0cc.hot-update.js"
     ],
     "component---cache-dev-404-page-js": [
       "component---cache-dev-404-page-js.js"
@@ -23,14 +23,14 @@
       "component---src-pages-using-typescript-tsx.js"
     ],
     "component---src-templates-page-js": [
-      "component---src-templates-page-js.js",
-      "component---src-templates-page-js.2619b7704ae8e664c6d0.hot-update.js"
+      "component---src-templates-page-js.js"
     ],
     "one": [
       "one.js"
     ],
     "two": [
-      "two.js"
+      "two.js",
+      "two.ad584bd870d608bed0cc.hot-update.js"
     ],
     "three": [
       "three.js"
@@ -208,31 +208,6 @@
     },
     {
       "type": "asset",
-      "name": "component---src-templates-page-js.2619b7704ae8e664c6d0.hot-update.js",
-      "size": 12911,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "2619b7704ae8e664c6d0"
-      },
-      "chunkNames": [
-        "component---src-templates-page-js"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "component---src-templates-page-js"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "node_modules_gatsby-plugin-image_dist_lazy-hydrate-c420256f_js.js",
       "size": 12907,
       "emitted": false,
@@ -319,35 +294,8 @@
     },
     {
       "type": "asset",
-      "name": "commons.2619b7704ae8e664c6d0.hot-update.js",
-      "size": 7434,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "2619b7704ae8e664c6d0"
-      },
-      "chunkNames": [
-        "commons"
-      ],
-      "chunkIdHints": [
-        "styles"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "commons"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "three.js",
-      "size": 5994,
+      "size": 6168,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -370,7 +318,7 @@
     {
       "type": "asset",
       "name": "one.js",
-      "size": 5959,
+      "size": 6131,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -393,12 +341,37 @@
     {
       "type": "asset",
       "name": "two.js",
-      "size": 5958,
+      "size": 6130,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "javascriptModule": false
+      },
+      "chunkNames": [
+        "two"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "two"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "two.ad584bd870d608bed0cc.hot-update.js",
+      "size": 6088,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "ad584bd870d608bed0cc"
       },
       "chunkNames": [
         "two"
@@ -436,7 +409,7 @@
     },
     {
       "type": "asset",
-      "name": "polyfill.2619b7704ae8e664c6d0.hot-update.js",
+      "name": "polyfill.ad584bd870d608bed0cc.hot-update.js",
       "size": 900,
       "emitted": false,
       "comparedForEmit": false,
@@ -444,7 +417,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "2619b7704ae8e664c6d0"
+        "fullhash": "ad584bd870d608bed0cc"
       },
       "chunkNames": [
         "polyfill"
@@ -461,15 +434,42 @@
     },
     {
       "type": "asset",
-      "name": "commons.2619b7704ae8e664c6d0.hot-update.json",
-      "size": 67,
+      "name": "commons.ad584bd870d608bed0cc.hot-update.js",
+      "size": 899,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "2619b7704ae8e664c6d0"
+        "fullhash": "ad584bd870d608bed0cc"
+      },
+      "chunkNames": [
+        "commons"
+      ],
+      "chunkIdHints": [
+        "styles"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "commons"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "commons.ad584bd870d608bed0cc.hot-update.json",
+      "size": 37,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "ad584bd870d608bed0cc"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -482,7 +482,7 @@
     },
     {
       "type": "asset",
-      "name": "polyfill.2619b7704ae8e664c6d0.hot-update.json",
+      "name": "polyfill.ad584bd870d608bed0cc.hot-update.json",
       "size": 32,
       "emitted": false,
       "comparedForEmit": false,
@@ -490,7 +490,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "2619b7704ae8e664c6d0"
+        "fullhash": "ad584bd870d608bed0cc"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -557,10 +557,10 @@
       "files": [
         "commons.css",
         "commons.js",
-        "commons.2619b7704ae8e664c6d0.hot-update.js"
+        "commons.ad584bd870d608bed0cc.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "8a205b772a96187ee531",
+      "hash": "3377995a2ad7820d4d15",
       "childrenByOrder": {},
       "id": "commons",
       "siblings": [
@@ -694,7 +694,7 @@
       "origins": []
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -710,8 +710,7 @@
         "commons"
       ],
       "files": [
-        "component---src-templates-page-js.js",
-        "component---src-templates-page-js.2619b7704ae8e664c6d0.hot-update.js"
+        "component---src-templates-page-js.js"
       ],
       "auxiliaryFiles": [],
       "hash": "de44f7823412b671bac0",
@@ -883,9 +882,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3204,
+      "size": 3276,
       "sizes": {
-        "javascript": 3204
+        "javascript": 3276
       },
       "names": [
         "one"
@@ -898,7 +897,7 @@
         "one.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "e3fad5c9ceb70aacda0a",
+      "hash": "bf1acb4bdf19cb117dd2",
       "childrenByOrder": {},
       "id": "one",
       "siblings": [],
@@ -930,10 +929,10 @@
       ],
       "files": [
         "polyfill.js",
-        "polyfill.2619b7704ae8e664c6d0.hot-update.js"
+        "polyfill.ad584bd870d608bed0cc.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "969fc93ce5b2058c5e67",
+      "hash": "b92197a82b6ec6e13998",
       "childrenByOrder": {},
       "id": "polyfill",
       "siblings": [],
@@ -947,9 +946,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3215,
+      "size": 3289,
       "sizes": {
-        "javascript": 3215
+        "javascript": 3289
       },
       "names": [
         "three"
@@ -962,7 +961,7 @@
         "three.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "f497e2bf0b8c399f720c",
+      "hash": "711262301cdbac40a8f2",
       "childrenByOrder": {},
       "id": "three",
       "siblings": [],
@@ -976,13 +975,13 @@
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3203,
+      "size": 3275,
       "sizes": {
-        "javascript": 3203
+        "javascript": 3275
       },
       "names": [
         "two"
@@ -992,10 +991,11 @@
         "commons"
       ],
       "files": [
-        "two.js"
+        "two.js",
+        "two.ad584bd870d608bed0cc.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "731e123ce54908f5fff9",
+      "hash": "48a43e16af7d526309ae",
       "childrenByOrder": {},
       "id": "two",
       "siblings": [],
@@ -1020,7 +1020,7 @@
           "name": "polyfill.js"
         },
         {
-          "name": "polyfill.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "polyfill.ad584bd870d608bed0cc.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1049,7 +1049,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "commons.ad584bd870d608bed0cc.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1073,7 +1073,7 @@
           "name": "polyfill.js"
         },
         {
-          "name": "polyfill.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "polyfill.ad584bd870d608bed0cc.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1102,7 +1102,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "commons.ad584bd870d608bed0cc.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1151,7 +1151,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "commons.ad584bd870d608bed0cc.hot-update.js"
         },
         {
           "name": "component---src-pages-404-js.js"
@@ -1184,7 +1184,7 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "commons.ad584bd870d608bed0cc.hot-update.js"
         },
         {
           "name": "component---src-pages-using-typescript-tsx.js"
@@ -1217,13 +1217,10 @@
           "name": "commons.js"
         },
         {
-          "name": "commons.2619b7704ae8e664c6d0.hot-update.js"
+          "name": "commons.ad584bd870d608bed0cc.hot-update.js"
         },
         {
           "name": "component---src-templates-page-js.js"
-        },
-        {
-          "name": "component---src-templates-page-js.2619b7704ae8e664c6d0.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1262,6 +1259,9 @@
       "assets": [
         {
           "name": "two.js"
+        },
+        {
+          "name": "two.ad584bd870d608bed0cc.hot-update.js"
         }
       ],
       "filteredAssets": 0,

@@ -3,7 +3,7 @@
 import React from 'react'
 
 const SectionOne = ({ id }) => {
-  return <div data-fallback-id={id}>section one :)</div>
+  return <div data-fallback-id={id} style={{ backgroundColor: 'lime', height: '20vh' }}>section one :)</div>
 }
 
 export default SectionOne
