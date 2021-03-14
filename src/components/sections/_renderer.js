@@ -28,7 +28,7 @@ const getFallback = (id) => {
   // return (
   //   <div>loading</div>
   // )
-  return element ? element.outerHTML : null
+  return element ? element.innerHTML : null
 }
 
 export default SectionRenderer
