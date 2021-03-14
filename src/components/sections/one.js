@@ -1,11 +1,10 @@
-/* webpackChunkName: "One" */
-
 import React from 'react'
+import { one } from './one.module.scss'
 
 const SectionOne = ({ id }) => {
   return (
     <section id={id}>
-      <div style={{ backgroundColor: 'lime', height: '20vh' }}>section one :)</div>
+      <div className={one}>section one :)</div>
     </section>
   )
 }
