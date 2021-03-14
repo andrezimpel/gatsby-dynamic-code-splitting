@@ -24,11 +24,7 @@ const getFallback = (id) => {
 
   if (typeof window === 'undefined') return null
   const element = window.document.getElementById(id)
-  // console.log(element?.outerHTML);
-  // return (
-  //   <div>loading</div>
-  // )
-  return element ? element.innerHTML : null
+  return element ? element.outerHTML : null
 }
 
 export default SectionRenderer
