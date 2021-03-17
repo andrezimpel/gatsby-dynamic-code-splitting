@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[841],{8926:function(e,t,r){"use strict";r.r(t);var _=r(7294);t.default=function(e){var t=e.id;return _.createElement("section",{id:t},_.createElement("div",{style:{backgroundColor:"purple",height:"20vh"}},"section three"))}}}]);
+//# sourceMappingURL=three-f4f4798395cb16f47360.js.map

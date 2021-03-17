@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[804],{8744:function(e,t,_){"use strict";_.r(t);var n=_(7294);t.default=function(e){var t=e.id;return n.createElement("section",{id:t},n.createElement("div",{style:{backgroundColor:"teal",height:"20vh"}},"section two"))}}}]);
+//# sourceMappingURL=two-91e3febb33ecd5d85e5f.js.map

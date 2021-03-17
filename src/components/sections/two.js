@@ -1,7 +1,13 @@
+/* webpackChunkName: "Two" */
+
 import React from 'react'
 
-const SectionTwo = () => {
-  return <div>section two</div>
+const SectionTwo = ({ id }) => {
+  return (
+    <section id={id}>
+      <div style={{ backgroundColor: 'teal', height: '20vh' }}>section two</div>
+    </section>
+  )
 }
 
 export default SectionTwo
